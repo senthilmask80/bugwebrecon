@@ -9,34 +9,34 @@ mkdir ~/.gf
 mkdir ~/Tools;
 mkdir ~/Recon;
 dir=~/Tools;
-go get github.com/Ice3man543/SubOver;
-go get -u github.com/tomnomnom/gf;
-go get -u github.com/tomnomnom/assetfinder;
-go get -u -v github.com/projectdiscovery/naabu/v2/cmd/naabu;
-go get github.com/tomnomnom/hacks/waybackurls;
-go get -u -v github.com/lukasikic/subzy;
-go install -v github.com/lukasikic/subzy;
-go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei;
+go install github.com/Ice3man543/SubOver@latest;
+go install github.com/tomnomnom/gf@latest;
+go install github.com/tomnomnom/assetfinder@latest;
+go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest;
+go install github.com/tomnomnom/hacks/waybackurls@latest;
+go install github.com/lukasikic/subzy@latest;
+
+go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest;
 git clone https://github.com/projectdiscovery/nuclei-templates $dir/nuclei-templates;
-go get github.com/haccer/subjack;
-GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
-GO111MODULE=on go get -v github.com/projectdiscovery/chaos-client/cmd/chaos;
-go get -u -v github.com/hahwul/dalfox;
-go get -u -v github.com/lc/gau;
-GO111MODULE=on go get -u -v github.com/lc/subjs
-go get github.com/hakluke/hakcheckurl;
-go get github.com/hakluke/hakrawler;
-go get github.com/hakluke/hakrevdns;
-go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
+go install github.com/haccer/subjack@latest;
+go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest;
+go install github.com/projectdiscovery/chaos-client/cmd/chaos@latest;
+go install github.com/hahwul/dalfox@latest;
+go install github.com/lc/gau@latest;
+go install github.com/lc/subjs@latest;
+go install github.com/hakluke/hakcheckurl@latest;
+go install github.com/hakluke/hakrawler@latest;
+go install github.com/hakluke/hakrevdns@latest;
+go install github.com/projectdiscovery/httpx/cmd/httpx@latest;
 git clone https://github.com/blechschmidt/massdns $dir/massdns;
 git clone https://github.com/devanshbatham/FavFreak $dir/FavFreak;
 git clone https://github.com/GerbenJavado/LinkFinder $dir/LinkFinder;
 git clone https://github.com/m4ll0k/SecretFinder $dir/SecretFinder;
 git clone https://github.com/devanshbatham/ParamSpider $dir/ParamSpider;
-go get -u -v github.com/projectdiscovery/dnsprobe;
+go install github.com/projectdiscovery/dnsprobe@latest;
 git clone https://github.com/maurosoria/dirsearch $dir/dirsearch;
 git clone https://github.com/ozguralp/gmapsapiscanner $dir/gmapsapiscanner;
-go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns;
+go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest;
 git clone https://github.com/1ndianl33t/Gf-Patterns $dir/Gf-Patterns;
 pip3 install corscanner
 pip3 install -r ~/Tools/*/requirements.txt;
