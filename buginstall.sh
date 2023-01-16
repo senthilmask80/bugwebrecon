@@ -31,8 +31,8 @@ createDir(){
 
 
 sudo apt-get build-essential apt-transport-https software-properties-common gcc;
-sudo apt-get install curl wget git git-all rename screen certbot gunzip zip unzip 7zip tar;
-sudo apt-get install openssl openssh-server openssh-client;
+sudo apt-get install curl wget git git-all rename screen certbot gunzip zip unzip 7zip tar p7zip-full;
+sudo apt-get install openssl openssh-server openssh-client parallel jq;
 sudo apt-get install awscli macchanger secure-delete neofetch;
 sudo apt-get install ruby ruby-dev ruby-full;
 sudo apt-get install golang-1.18-go;
@@ -57,7 +57,8 @@ sudo apt-get install python3-aiodns python3-aiohttp python3-aiohttp python3-aioh
 sudo apt-get install python3-aiohttp-proxy python3-aiohttp-security python3-aiohttp-session;
 sudo apt-get install nmap tor torbrowser-launcher tor-geoipdb torsocks iptables iptables-persistent;
 sudo apt-get install onionshare onioncircuits onionshare unbound proxychains proxychains4 proxycheck;
-sudo apt-get install chromium-browser chromium-chromedriver;
+sudo apt-get install chromium-browser chromium-chromedriver libnet-ssleay-perl; 
+sudo apt-get install masscan whatweb sublist3r gobuster nikto wafw00f 
 sudo apt-get install 0install 0install-core;
 pip install pipreqs;
 pip install pypi-install;
@@ -70,6 +71,11 @@ pip3 install corscanner;
 pip install "urllib3[secure]"
 pip install mmh3;
 pip install aort;
+pip install wafw00f;
+
+npm i -g wappalyzer wscat;
+
+phantomjs
 
 mkdir ~/.gf
 mkdir ~/Tools;
@@ -81,6 +87,15 @@ go install github.com/tomnomnom/assetfinder@latest;
 go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest;
 go install github.com/tomnomnom/hacks/waybackurls@latest;
 go install github.com/lukasikic/subzy@latest;
+go install github.com/devanshbatham/gorecon@latest;
+go get "github.com/devanshbatham/gorecon";
+go install github.com/fatih/color@latest;
+go get "github.com/fatih/color";
+go install github.com/likexian/whois-go@latest;
+go get "github.com/likexian/whois-go";
+go install github.com/gocolly/colly@latest";
+go get "github.com/gocolly/colly";
+
 
 go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest;
 git clone https://github.com/projectdiscovery/nuclei-templates $dir/nuclei-templates;
@@ -469,3 +484,43 @@ dirBruteTools
 otherTools
 
 echo -e "${GREEN}--==[ DONE ]==--${RESET}"
+
+function install_go_tools() {
+		source $HOME/.profile;
+		echo -e "$GREEN""[+] Installing Go tools from Github.""$NC";
+		sleep 1;
+		echo -e "$GREEN""[+] Installing subfinder from Github.""$NC";
+		go get -u github.com/subfinder/subfinder;
+		echo -e "$GREEN""[+] Installing subjack from Github.""$NC";
+		go get -u github.com/haccer/subjack;
+		echo -e "$GREEN""[+] Installing ffuf from Github.""$NC";
+		go get -u github.com/ffuf/ffuf;
+		echo -e "$GREEN""[+] Installing gobuster from Github.""$NC";
+		go get -u github.com/OJ/gobuster;
+		# echo -e "$GREEN""[+] Installing inception from Github.""$NC";
+		# go get -u github.com/proabiral/inception;
+		echo -e "$GREEN""[+] Installing waybackurls from Github.""$NC";
+		go get -u github.com/tomnomnom/waybackurls;
+		echo -e "$GREEN""[+] Installing goaltdns from Github.""$NC";
+		go get -u github.com/subfinder/goaltdns;
+		echo -e "$GREEN""[+] Installing rescope from Github.""$NC";
+        go get -u github.com/root4loot/rescope;
+		echo -e "$GREEN""[+] Installing httprobe from Github.""$NC";
+		go get -u github.com/tomnomnom/httprobe;
+}
+
+function install_go() {
+		if [[ -e /usr/local/go/bin/go ]]; then
+				echo -e "$GREEN""[i] Go is already installed, skipping installation.""$NC";
+				return;
+		fi
+		echo -e "$GREEN""[+] Installing Go 1.12 from golang.org.""$NC";
+		wget -nv https://dl.google.com/go/go1.12.linux-amd64.tar.gz;
+		sudo tar -C /usr/local -xzf go1.12.linux-amd64.tar.gz;
+		echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin:" >> "$HOME"/.profile;
+		echo "export GOPATH=$HOME/go" >> "$HOME"/.profile;
+		source "$HOME"/.profile;
+		rm -rf go1.12.linux-amd64.tar.gz;
+}
+
+
