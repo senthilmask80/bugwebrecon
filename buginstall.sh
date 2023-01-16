@@ -2,12 +2,46 @@
 
 sudo apt-get update;
 sudo apt-get upgrade -y;
-sudo apt-get install curl wget git git-all;
-sudo apt-get install python3;
-sudo apt-get install python3-pip;
-sudo apt-get install ruby;
-sudo apt-get install screen;
-sudo apt-get install git;
+sudo apt-get build-essential apt-transport-https software-properties-common gcc;
+sudo apt-get install curl wget git git-all rename screen certbot gunzip zip unzip 7zip tar;
+sudo apt-get install openssl openssh-server openssh-client;
+sudo apt-get install awscli macchanger secure-delete neofetch;
+sudo apt-get install ruby ruby-dev ruby-full;
+sudo apt-get install golang-1.18-go;
+sudo apt-get install openjdk-11-headless openjre-11-headless;
+sudo apt-get install rust-all pigz;
+sudo apt-get install npm;
+sudo apt-get install sqlite sqlite3 sqlite3-tools sqlitebrowser;
+sudo apt-get install dnsmasq dnsmasq-base dnsproxy dnsutils dnsrecon dns2tcp dnscache;
+sudo apt-get install -y make libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev;
+sudo apt-get install llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libpcap-dev;
+sudo apt-get install dnsutils libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ibssl-dev libffi-dev;
+sudo apt-get install lzma liblzma-dev libbz2-dev readline gnureadline;
+sudo apt-get install python-is-python3 python3-pip python3-venv python3-virtualenv;
+sudo apt-get install python3-dev python3-minimal python3-full;
+sudo apt-get install python2.7-dev python2.7-minimal python2.7;
+sudo apt-get install python3-setuptools python3-requests python3-wheel python3-wheel-whl;
+sudo apt-get install pythonpy python3-poetry python3-poetry-core;
+sudo apt-get install python3-tk python3-whois python3-dns python3-dnslib python3-dnspython python3-dnsq;
+sudo apt-get install python3-httpx python3-httptools python3-parser python3-httpbin python3-httpcore;
+sudo apt-get install python3-httplib2 python3-httpretty python3-args python3-argparse-manpage;
+sudo apt-get install python3-aiodns python3-aiohttp python3-aiohttp python3-aiohttp-cors;
+sudo apt-get install python3-aiohttp-proxy python3-aiohttp-security python3-aiohttp-session;
+sudo apt-get install nmap tor torbrowser-launcher tor-geoipdb torsocks iptables iptables-persistent;
+sudo apt-get install onionshare onioncircuits onionshare unbound proxychains proxychains4 proxycheck;
+sudo apt-get install chromium-browser chromium-chromedriver;
+sudo apt-get install 0install 0install-core
+pip install pipreqs;
+pip install pypi-install;
+pip install feedparser;
+pip install awscli;
+pip install google;
+pip3 install fierce;
+pip install pyopenssl;
+pip3 install corscanner;
+pip install "urllib3[secure]"
+pip install mmh3;
+
 mkdir ~/.gf
 mkdir ~/Tools;
 mkdir ~/Recon;
@@ -54,3 +88,174 @@ cp $dir/massdns/bin/massdns /usr/bin/;
 cd ~/.gf; wget https://raw.githubusercontent.com/devanshbatham/ParamSpider/master/gf_profiles/potential.json;
 cd ~/go/bin; wget https://raw.githubusercontent.com/Ice3man543/SubOver/master/providers.json;
 cd ~/Tools; wget https://gist.githubusercontent.com/KathanP19/d2cda2f99c0b60d64b76ee6039b37e47/raw/eb105a4de06502b2732df9d682c61189c3703685/jsvar.sh;
+
+
+##########################Sublister##########################
+
+echo "Installing Sublister"
+git clone https://github.com/aboul3la/Sublist3r.git
+cd Sublist3r*
+sudo pip install -r requirements.txt
+echo "Sublist3r Done."
+
+##########################Knock##########################
+
+echo "Installing Knock"
+cd ..
+git clone https://github.com/guelfoweb/knock.git
+cd knock/knockpy
+echo "Enter Your Virustotal API_key"
+read knockVTapi
+echo '{
+        "virustotal": "'$knockVTapi'"
+}' > config.json
+
+cd ..
+sudo python setup.py install
+echo "Done setting UP the Knock"
+
+##########################Subfinder##########################
+
+echo "Installing Subfinder"
+cd ..
+go get github.com/subfinder/subfinder
+wget "https://github.com/assetnote/commonspeak2-wordlists/raw/master/subdomains/subdomains.txt"
+mv subdomains.txt my.txt
+git clone https://github.com/subfinder/subfinder.git
+cd subfinder
+go build
+echo -e \n\n "${RED}Subfinder Done (Note:- Dont forget to comfigure the api key by \n ./subfinder --set-config VirustotalAPIKey=0x41414141 or \n see the full documentatio here https://github.com/subfinder/subfinder#post-installation-instructions${NC}"
+echo "Subfinder Done"
+
+##########################Censys##########################
+
+echo "Installing Censys"
+cd ..
+git clone https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration.git
+echo "Censys Done"
+
+##########################Amass##########################
+
+echo "Installing Amass"
+go get -u github.com/OWASP/Amass/...
+echo "Enter the Directory where go/bin/ is installed"
+echo "For Example root/go/bin/amass"
+cd ..
+read dir
+mv $dir Tools/
+echo "Amass Done"
+
+##########################AltDNS##########################
+
+echo "Installing AltDNS"
+cd Tools/
+git clone https://github.com/infosec-au/altdns.git
+cd altdns
+pip install -r requirements.txt
+echo "AltDNS Done"
+
+##########################NMAP##########################
+
+echo "Installing NMAP"
+cd ..
+sudo apt-get install nmap
+echo "NMAP Done"
+
+##########################MassDNS##########################
+
+echo "Installing MassDNS"
+git clone https://github.com/blechschmidt/massdns.git
+cd massdns
+wget https://gist.githubusercontent.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/f58e82c9abfa46a932eb92edbe6b18214141439b/all.txt
+make
+echo "MassDNS Done"
+
+##########################EyeWitness##########################
+
+echo "Installing EyeWitness"
+cd ..
+git clone https://github.com/FortyNorthSecurity/EyeWitness.git
+echo "EyeWitness Done"
+
+##########################MassScan##########################
+
+echo "Installing MassScan"
+git clone https://github.com/robertdavidgraham/masscan
+cd masscan
+make
+echo "MassScan Done"
+
+##########################CTFR##########################
+
+echo "Installing CTFR"
+cd ..
+git clone https://github.com/UnaPibaGeek/ctfr.git
+cd ctfr
+pip3 install -r requirements.txt
+echo "CTFR Done"
+
+##########################Aquatone##########################
+
+echo "Installing Aquatone"
+cd ..
+gem install aquatone
+echo "Aquatone Done"
+
+##########################Sublert##########################
+
+echo "Installing SUblert"
+git clone https://github.com/yassineaboukir/sublert.git && cd sublert
+sudo pip install -r requirements.txt
+cd ..
+
+##########################Dirsearch##########################
+
+echo "Installing Dirsearch"
+git clone https://github.com/maurosoria/dirsearch.git
+echo "Dirsearch Done"
+
+##########################Censys##########################
+
+echo "Installing Censys"
+git clone https://github.com/christophetd/censys-subdomain-finder.git
+cd censys-subdomain-finder
+pip install -r requirements.txt
+echo "Censys Done"
+
+##########################FDNS##########################
+
+echo "Downloading FDNS dataset"
+cd ..
+wget https://opendata.rapid7.com/sonar.fdns_v2/2019-10-27-1572199582-fdns_cname.json.gz
+
+##########################Linkfinder##########################
+
+echo "Installing LinkFinder"
+git clone https://github.com/GerbenJavado/LinkFinder.git
+cd LinkFinder
+python setup.py install
+echo "Linkfinder Done"
+
+##########################Jsparser##########################
+
+echo "Installing Jsparser"
+cd ..
+git clone https://github.com/nahamsec/JSParser.git
+python setup.py install
+echo "JSParser Done"
+
+##########################SAN##########################
+
+echo "Installing San"
+git clone https://github.com/SilverPoision/San.git
+echo "San Done"
+
+##########################Vhost##########################
+
+echo "Vhost"
+git clone https://github.com/jobertabma/virtual-host-discovery.git
+cd virtual-host-discovery
+wget https://github.com/SilverPoision/San/blob/master/word.txt
+cd ..
+echo "Vhost Done"
+echo -e \n\n "${RED}Once again don't forget to set the api keys for subfinder from here https://github.com/subfinder/subfinder#post-installation-instructions and also setting the AWS CLI creds. ${NC}"
