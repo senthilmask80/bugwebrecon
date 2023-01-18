@@ -2,6 +2,7 @@
 
 git clone https://github.com/tdr130/assetnote.git;
 git clone https://github.com/Tib3rius/AutoRecon.git
+git clone https://github.com/six2dez/reconftw.git
 
 wget https://github.com/laramies/theHarvester/archive/refs/tags/4.2.0.zip;
 wget https://github.com/six2dez/reconftw/archive/refs/tags/v2.5.1.zip;
