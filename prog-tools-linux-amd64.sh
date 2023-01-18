@@ -57,6 +57,9 @@ wget https://github.com/Porchetta-Industries/CrackMapExec/releases/download/v5.4
 wget https://github.com/dwisiswant0/crlfuzz/releases/download/v1.4.1/crlfuzz_1.4.1_linux_amd64.tar.gz
 wget https://github.com/hahwul/dalfox/releases/download/v2.8.2/dalfox_2.8.2_linux_amd64.tar.gz
 wget https://github.com/M4DM0e/DirDar/releases/download/v1.0.0/DirDarV1.0-linux64.zip
+wget https://github.com/epi052/feroxbuster/releases/download/v2.7.3/x86_64-linux-feroxbuster.tar.gz
+wget https://github.com/lc/gau/releases/download/v2.1.2/gau_2.1.2_linux_amd64.tar.gz
+
 
 
 
@@ -134,6 +137,8 @@ go install -v github.com/six2dez/ipcdn@latest
 go get -u github.com/Josue87/roboxtractor
 go install github.com/Josue87/roboxtractor@latest
 go install github.com/Josue87/gotator@latest
+go install github.com/bp0lr/gauplus@latest
+go install github.com/003random/getJS@latest
 
 
 
@@ -164,6 +169,10 @@ git clone https://github.com/eslam3kl/crtfinder.git
 git clone https://github.com/commixproject/commix.git
 git clone https://github.com/s0md3v/Corsy.git
 git clone https://github.com/codingo/DNSCewl.git
+git clone https://github.com/darkoperator/dnsrecon.git
+git clone https://github.com/vortexau/dnsvalidator.git
+git clone https://github.com/Cgboal/exclude-cdn.git
+
 
 
 
