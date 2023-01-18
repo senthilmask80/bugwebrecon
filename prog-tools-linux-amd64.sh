@@ -243,6 +243,7 @@ git clone https://github.com/s0md3v/Silver.git
 git clone https://github.com/UnkL4b/GitMiner.git
 git clone https://github.com/maK-/parameth.git
 git clone https://github.com/shmilylty/OneForAll.git
+git clone https://github.com/devanshbatham/FavFreak.git
 
 
 
