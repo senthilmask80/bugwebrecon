@@ -62,6 +62,9 @@ wget https://github.com/lc/gau/releases/download/v2.1.2/gau_2.1.2_linux_amd64.ta
 wget https://github.com/sensepost/gowitness/releases/download/2.4.2/gowitness-2.4.2-linux-amd64
 wget https://github.com/KathanP19/Gxss/releases/download/v4.1/Gxss_4.1_Linux_x86_64.tar.gz
 wget https://github.com/assetnote/kiterunner/releases/download/v1.0.2/kiterunner_1.0.2_linux_amd64.tar.gz
+wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
+wget https://github.com/rofl0r/proxychains-ng/releases/download/v4.16/proxychains-ng-4.16.tar.xz
+
 
 
 
@@ -179,6 +182,9 @@ git clone https://github.com/vortexau/dnsvalidator.git
 git clone https://github.com/Cgboal/exclude-cdn.git
 git clone https://github.com/pry0cc/gorgo.git
 git clone https://github.com/codingo/Interlace.git
+git clone https://github.com/devanshbatham/OpenRedireX.git
+git clone https://github.com/devanshbatham/ParamSpider.git
+git clone https://github.com/SpiderLabs/Responder.git
 
 
 
