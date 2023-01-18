@@ -208,6 +208,7 @@ git clone https://github.com/fullhunt/log4j-scan.git
 git clone https://github.com/fullhunt/spring4shell-scan.git
 git clone https://github.com/Tuhinshubhra/CMSeeK.git
 git clone https://github.com/OWASP/joomscan.git
+git clone https://github.com/harsh-bothra/Bheem.git
 
 
 
@@ -235,7 +236,7 @@ wget https://storage.googleapis.com/caido-releases/internal/caido-desktop-linux-
 wget https://storage.googleapis.com/caido-releases/v0.22.1/caido-desktop-linux-v0.22.1-d513d47d.AppImage
 wget https://github.com/dstotijn/hetty/releases/download/v0.7.0/hetty_0.7.0_Linux_x86_64.tar.gz
 wget https://github.com/sullo/nikto/archive/master.zip
-
+wget https://gist.githubusercontent.com/KathanP19/d2cda2f99c0b60d64b76ee6039b37e47/raw/eb105a4de06502b2732df9d682c61189c3703685/jsvar.sh
 
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
 git clone https://github.com/jaeles-project/jaeles-plugins.git
