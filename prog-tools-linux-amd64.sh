@@ -35,6 +35,11 @@ wget https://github.com/projectdiscovery/interactsh/releases/download/v1.0.7/int
 wget https://github.com/projectdiscovery/interactsh/releases/download/v1.0.7/interactsh-server_1.0.7_Linux_x86_64.zip;
 
 
+# https://github.com/hakluke?tab=repositories
+go install github.com/hakluke/hakoriginfinder@latest
+go install github.com/hakluke/hakrawler@latest
+
+
 
 
 wget https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd64.tar.gz
@@ -81,4 +86,5 @@ wget https://github.com/wappalyzer/wappalyzer/releases/download/v6.10.54/webexte
 
 # Templates
 https://github.com/projectdiscovery/fuzzing-templates/archive/refs/tags/v0.0.1.zip
+git clone https://github.com/bugcrowd/templates.git
 
