@@ -125,6 +125,13 @@ git clone https://github.com/TheRook/subbrute.git
 git clone https://github.com/m8sec/subscraper.git
 git clone https://github.com/guelfoweb/knock.git
 git clone https://github.com/antichown/subdomain-takeover.git
+git clone https://github.com/m4ll0k/takeover.git
+git clone https://github.com/m4ll0k/SecretFinder.git
+git clone https://github.com/GerbenJavado/LinkFinder.git
+git clone https://github.com/m4ll0k/BBTz.git
+git clone https://github.com/ozguralp/gmapsapiscanner.git
+
+
 
 
 
@@ -151,5 +158,6 @@ wget https://github.com/projectdiscovery/fuzzing-templates/archive/refs/tags/v0.
 git clone https://github.com/bugcrowd/templates.git
 git clone https://github.com/hakluke/weaponised-XSS-payloads.git
 git clone https://github.com/cujanovic/Markdown-XSS-Payloads.git
+git clone https://github.com/six2dez/OneListForAll.git
 
 
