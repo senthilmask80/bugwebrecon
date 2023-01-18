@@ -61,7 +61,7 @@ wget https://github.com/epi052/feroxbuster/releases/download/v2.7.3/x86_64-linux
 wget https://github.com/lc/gau/releases/download/v2.1.2/gau_2.1.2_linux_amd64.tar.gz
 wget https://github.com/sensepost/gowitness/releases/download/2.4.2/gowitness-2.4.2-linux-amd64
 wget https://github.com/KathanP19/Gxss/releases/download/v4.1/Gxss_4.1_Linux_x86_64.tar.gz
-
+wget https://github.com/assetnote/kiterunner/releases/download/v1.0.2/kiterunner_1.0.2_linux_amd64.tar.gz
 
 
 
@@ -142,6 +142,8 @@ go install github.com/Josue87/roboxtractor@latest
 go install github.com/Josue87/gotator@latest
 go install github.com/bp0lr/gauplus@latest
 go install github.com/003random/getJS@latest
+go get github.com/Emoe/kxss
+go install github.com/Emoe/kxss@latest
 
 
 
@@ -176,9 +178,7 @@ git clone https://github.com/darkoperator/dnsrecon.git
 git clone https://github.com/vortexau/dnsvalidator.git
 git clone https://github.com/Cgboal/exclude-cdn.git
 git clone https://github.com/pry0cc/gorgo.git
-
-
-
+git clone https://github.com/codingo/Interlace.git
 
 
 
@@ -207,6 +207,7 @@ git clone https://github.com/wagiro/BurpBounty/releases/download/BurpBounty_v4.0
 
 # Templates
 wget https://github.com/projectdiscovery/fuzzing-templates/archive/refs/tags/v0.0.1.zip
+git clone https://github.com/ayoubfathi/leaky-paths.git
 git clone https://github.com/bugcrowd/templates.git
 git clone https://github.com/hakluke/weaponised-XSS-payloads.git
 git clone https://github.com/cujanovic/Markdown-XSS-Payloads.git
