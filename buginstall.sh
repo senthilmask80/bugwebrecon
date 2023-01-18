@@ -58,7 +58,7 @@ sudo apt-get install python3-aiohttp-proxy python3-aiohttp-security python3-aioh
 sudo apt-get install nmap tor torbrowser-launcher tor-geoipdb torsocks iptables iptables-persistent;
 sudo apt-get install onionshare onioncircuits onionshare unbound proxychains proxychains4 proxycheck;
 sudo apt-get install chromium-browser chromium-chromedriver libnet-ssleay-perl; 
-sudo apt-get install masscan whatweb sublist3r gobuster nikto wafw00f 
+sudo apt-get install masscan whatweb sublist3r gobuster nikto wafw00f medusa
 sudo apt-get install 0install 0install-core;
 pip install pipreqs;
 pip install pypi-install;
