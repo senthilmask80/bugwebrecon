@@ -59,7 +59,8 @@ wget https://github.com/hahwul/dalfox/releases/download/v2.8.2/dalfox_2.8.2_linu
 wget https://github.com/M4DM0e/DirDar/releases/download/v1.0.0/DirDarV1.0-linux64.zip
 wget https://github.com/epi052/feroxbuster/releases/download/v2.7.3/x86_64-linux-feroxbuster.tar.gz
 wget https://github.com/lc/gau/releases/download/v2.1.2/gau_2.1.2_linux_amd64.tar.gz
-
+wget https://github.com/sensepost/gowitness/releases/download/2.4.2/gowitness-2.4.2-linux-amd64
+wget https://github.com/KathanP19/Gxss/releases/download/v4.1/Gxss_4.1_Linux_x86_64.tar.gz
 
 
 
@@ -83,6 +84,8 @@ go install github.com/d3mondev/puredns/v2@latest
 go install github.com/gwen001/github-subdomains@latest
 go get -u github.com/raverrr/dantiburl
 go install github.com/raverrr/dantiburl@latest
+go install github.com/gwen001/github-endpoints@latest
+
 
 
 
@@ -172,6 +175,9 @@ git clone https://github.com/codingo/DNSCewl.git
 git clone https://github.com/darkoperator/dnsrecon.git
 git clone https://github.com/vortexau/dnsvalidator.git
 git clone https://github.com/Cgboal/exclude-cdn.git
+git clone https://github.com/pry0cc/gorgo.git
+
+
 
 
 
