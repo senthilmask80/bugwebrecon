@@ -102,6 +102,8 @@ pip install raccoon-scanner
 pip install bluto
 pip3 install uro
 pip install mmh3
+pip3 install apkleaks
+
 
 npm i -g wappalyzer wscat;
 npm install -g grunt-cli
