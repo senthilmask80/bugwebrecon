@@ -94,6 +94,8 @@ npm i -g wappalyzer wscat;
 npm install -g grunt-cli
 
 gem install wpscan
+gem install evil-proxy
+
 
 phantomjs
 
