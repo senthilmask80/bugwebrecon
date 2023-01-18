@@ -253,6 +253,7 @@ git clone https://github.com/KathanP19/JSFScan.sh.git
 git clone https://github.com/opsdisk/pagodo.git
 git clone https://github.com/edoardottt/scilla.git
 git clone https://github.com/edoardottt/longtongue.git
+git clone https://github.com/nahamsec/lazyrecon.git
 
 
 
