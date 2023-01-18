@@ -68,6 +68,7 @@ sudo apt-get install bison fail2ban firebird-dev flex grc libgcrypt11-dev_1.5.4-
 sudo apt-get install libgcrypt20-dev libgpg-error-dev libgtk2.0-dev libidn11-dev libmemcached-dev libmysqlclient-dev
 sudo apt-get install libpcap-dev libpcre3-dev libpq-dev libssh-dev libssl-dev libsvn-dev 
 sudo apt-get install net-tools ohmyzsh vim zsh zsh-autosuggestions zsh-syntax-highlighting
+sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev libgmp-dev zlib1g-dev libssl-dev libffi-dev libldns-dev rename findutils
 
 
 
@@ -86,7 +87,8 @@ pip install wafw00f;
 pip install aiodnsbrute;
 pip3 install arjun;
 pip3 install dnsgen;
-
+pip3 install colored
+pip3 install tldextract
 
 
 
