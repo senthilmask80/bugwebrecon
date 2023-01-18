@@ -92,6 +92,7 @@ pip3 install tldextract
 pip install termcolor
 pip install py-altdns
 pip3 install emailfinder
+pip install --upgrade sslyze
 
 
 npm i -g wappalyzer wscat;
