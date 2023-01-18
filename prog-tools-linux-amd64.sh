@@ -68,7 +68,8 @@ wget https://github.com/lc/subjs/releases/download/v1.0.1/subjs_1.0.1_linux_amd6
 wget https://github.com/projectdiscovery/tlsx/releases/download/v1.0.4/tlsx_1.0.4_linux_amd64.zip
 wget https://github.com/trufflesecurity/trufflehog/releases/download/v3.25.2/trufflehog_3.25.2_linux_amd64.tar.gz
 wget https://github.com/Edu4rdSHL/unimap/releases/download/0.5.1/unimap-linux
-
+wget https://github.com/projectdiscovery/proxify/releases/download/v0.0.8/proxify_0.0.8_linux_amd64.zip
+wget https://snapshots.mitmproxy.org/9.0.1/mitmproxy-9.0.1-linux.tar.gz
 
 
 
