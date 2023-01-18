@@ -225,7 +225,9 @@ git clone https://github.com/r3curs1v3-pr0xy/sub404.git
 git clone https://github.com/gfek/Lepus.git
 git clone https://github.com/dolevf/graphw00f.git
 git clone https://github.com/s0md3v/Photon.git
-
+git clone https://github.com/si9int/cc.py.git
+git clone https://github.com/xnl-h4ck3r/xnLinkFinder.git
+git clone https://github.com/s0md3v/Parth.git
 
 
 
