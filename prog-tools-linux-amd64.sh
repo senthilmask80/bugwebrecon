@@ -250,6 +250,8 @@ wget https://github.com/sullo/nikto/archive/master.zip
 wget https://gist.githubusercontent.com/KathanP19/d2cda2f99c0b60d64b76ee6039b37e47/raw/eb105a4de06502b2732df9d682c61189c3703685/jsvar.sh
 wget https://github.com/jonluca/Anubis/releases/download/1.1.3/anubis-netsec-1.1.3.tar.gz
 wget https://chromedriver.storage.googleapis.com/94.0.4606.41/chromedriver_linux64.zip
+wget https://github.com/utkusen/urlhunter/releases/download/v0.1.2/urlhunter_v0.1.2-next_Linux_amd64.tar.gz
+
 
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
 git clone https://github.com/jaeles-project/jaeles-plugins.git
