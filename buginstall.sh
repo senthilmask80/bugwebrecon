@@ -74,6 +74,7 @@ pip install aort;
 pip install wafw00f;
 
 npm i -g wappalyzer wscat;
+npm install -g grunt-cli
 
 phantomjs
 
