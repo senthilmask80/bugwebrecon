@@ -135,7 +135,7 @@ cd ~/Tools; wget https://gist.githubusercontent.com/KathanP19/d2cda2f99c0b60d64b
 
 echo "PATH=${PATH}:~/.local/bin" >> ~/.bashrc
 
-
+ulimit -n 16384
 
 ##########################Sublister##########################
 
