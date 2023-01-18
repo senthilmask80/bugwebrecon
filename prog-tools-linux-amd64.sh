@@ -111,6 +111,8 @@ go install golang.org/x/oauth2@latest
 go install github.com/miekg/dns@latest
 go get github.com/anshumanbh/tko-subs
 go install github.com/anshumanbh/tko-subs
+go install -v github.com/six2dez/ipcdn@latest
+
 
 
 # extra-tools
