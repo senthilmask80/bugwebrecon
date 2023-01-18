@@ -581,4 +581,10 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
   chmod 755 msfinstall && \
   ./msfinstall
   
+apt install debian-keyring
+gpg -a --export --keyring /usr/share/keyrings/debian-maintainers.gpg git@rxv.cc | apt-key add -
+apt-key adv --keyserver keyserver.ubuntu.com --refresh-keys git@rxv.cc
+echo deb http://apt.vulns.sexy stable main > /etc/apt/sources.list.d/apt-vulns-sexy.list
+apt update
+apt install sn0int
 
