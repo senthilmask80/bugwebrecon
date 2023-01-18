@@ -280,7 +280,8 @@ wget https://github.com/michenriksen/gitrob/releases/download/v2.0.0-beta/gitrob
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
 git clone https://github.com/jaeles-project/jaeles-plugins.git
 git clone https://github.com/six2dez/burp-bounty-profiles.git
-git clone https://github.com/wagiro/BurpBounty/releases/download/BurpBounty_v4.0/BurpBountyFree_v4.0.jar
+wget https://github.com/wagiro/BurpBounty/releases/download/BurpBounty_v4.0/BurpBountyFree_v4.0.jar
+git clone https://github.com/EdOverflow/megplus.git
 
 
 
