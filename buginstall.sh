@@ -93,7 +93,7 @@ pip install termcolor
 pip install py-altdns
 pip3 install emailfinder
 pip install --upgrade sslyze
-
+pip3 install rekono-cli
 
 npm i -g wappalyzer wscat;
 npm install -g grunt-cli
