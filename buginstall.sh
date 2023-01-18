@@ -69,7 +69,7 @@ sudo apt-get install libgcrypt20-dev libgpg-error-dev libgtk2.0-dev libidn11-dev
 sudo apt-get install libpcap-dev libpcre3-dev libpq-dev libssh-dev libssl-dev libsvn-dev 
 sudo apt-get install net-tools ohmyzsh vim zsh zsh-autosuggestions zsh-syntax-highlighting
 sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev libgmp-dev zlib1g-dev libssl-dev libffi-dev libldns-dev rename findutils
-
+sudo apt-get install exploitdb exploitdb-bin-sploits exploitdb-papers
 
 
 pip install pipreqs;
