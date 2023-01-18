@@ -32,9 +32,9 @@ createDir(){
 }
 
 
-sudo apt-get build-essential apt-transport-https software-properties-common gcc;
+sudo apt-get install build-essential apt-transport-https software-properties-common gcc build-dep;
 sudo apt-get install curl wget git git-all rename screen certbot gunzip zip unzip 7zip tar p7zip-full;
-sudo apt-get install openssl openssh-server openssh-client parallel jq vim ctags tmux dtach dstat silversearcher-ag;
+sudo apt-get install openssl openssh-server openssh-client parallel jq vim ctags tmux dtach dstat silversearcher-ag sslscan;
 sudo apt-get install awscli macchanger secure-delete neofetch prips;
 sudo apt-get install ruby ruby-dev ruby-full rubygems;
 sudo apt-get install golang-1.18-go;
