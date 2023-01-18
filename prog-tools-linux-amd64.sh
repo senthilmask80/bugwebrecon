@@ -65,6 +65,9 @@ wget https://github.com/assetnote/kiterunner/releases/download/v1.0.2/kiterunner
 wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
 wget https://github.com/rofl0r/proxychains-ng/releases/download/v4.16/proxychains-ng-4.16.tar.xz
 wget https://github.com/lc/subjs/releases/download/v1.0.1/subjs_1.0.1_linux_amd64.tar.gz
+wget https://github.com/projectdiscovery/tlsx/releases/download/v1.0.4/tlsx_1.0.4_linux_amd64.zip
+wget https://github.com/trufflesecurity/trufflehog/releases/download/v3.25.2/trufflehog_3.25.2_linux_amd64.tar.gz
+wget https://github.com/Edu4rdSHL/unimap/releases/download/0.5.1/unimap-linux
 
 
 
@@ -189,7 +192,7 @@ git clone https://github.com/SpiderLabs/Responder.git
 git clone https://github.com/sa7mon/S3Scanner.git
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 git clone https://github.com/drwetter/testssl.sh.git
-
+git clone https://github.com/maaaaz/webscreenshot.git
 
 
 
