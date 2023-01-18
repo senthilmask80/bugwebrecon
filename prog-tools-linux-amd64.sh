@@ -171,6 +171,9 @@ go install -v github.com/Hackmanit/Web-Cache-Vulnerability-Scanner@latest
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go get -u github.com/pry0cc/subgen
 go install github.com/pry0cc/subgen@latest
+go get github.com/htcat/htcat/cmd/htcat
+go install github.com/htcat/htcat/cmd/htcat@latest
+
 
 
 # extra-tools
@@ -244,6 +247,13 @@ git clone https://github.com/UnkL4b/GitMiner.git
 git clone https://github.com/maK-/parameth.git
 git clone https://github.com/shmilylty/OneForAll.git
 git clone https://github.com/devanshbatham/FavFreak.git
+git clone https://github.com/zmap/zdns.git
+git clone https://github.com/vortexau/dnsvalidator.git
+git clone https://github.com/KathanP19/JSFScan.sh.git
+git clone https://github.com/opsdisk/pagodo.git
+git clone https://github.com/edoardottt/scilla.git
+git clone https://github.com/edoardottt/longtongue.git
+
 
 
 
@@ -282,6 +292,8 @@ wget https://github.com/s0md3v/Smap/releases/download/0.1.12/smap_0.1.12_linux_a
 wget https://github.com/michenriksen/gitrob/releases/download/v2.0.0-beta/gitrob_linux_amd64_2.0.0-beta.zip
 wget https://github.com/Edu4rdSHL/fhc/releases/download/0.7.1/fhc-linux
 wget https://github.com/j3ssie/goverview/releases/download/v1.0.1/goverview_v1.0.1_linux_amd64.tar.gz
+wget https://github.com/Qianlitp/crawlergo/releases/download/v0.4.4/crawlergo_linux_amd64
+wget https://github.com/Edu4rdSHL/rusolver/releases/download/0.9.1/rusolver-linux
 
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
 git clone https://github.com/jaeles-project/jaeles-plugins.git
@@ -306,5 +318,8 @@ git clone https://github.com/1ndianl33t/Gf-Patterns.git
 git clone https://github.com/six2dez/dotfiles.git
 git clone https://github.com/tomnomnom/dotfiles.git
 git clone https://github.com/nahamsec/recon_profile.git
+git clone https://github.com/internetwache/CT_subdomains.git
+
+https://drive.google.com/uc?id=1z3Zr3o6v86eIbPtsUbY4DGypWV1Cn2y_&export=download
 
 
