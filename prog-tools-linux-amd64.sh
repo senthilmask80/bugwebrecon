@@ -218,6 +218,8 @@ wget https://github.com/zaproxy/zaproxy/releases/download/v2.12.0/ZAP_2.12.0_Cro
 wget https://storage.googleapis.com/caido-releases/v0.22.1/caido-linux-v0.22.1-c76bb063.tar.gz
 wget https://storage.googleapis.com/caido-releases/internal/caido-desktop-linux-v0.22.1-7e0bcca8.deb
 wget https://storage.googleapis.com/caido-releases/v0.22.1/caido-desktop-linux-v0.22.1-d513d47d.AppImage
+wget https://github.com/dstotijn/hetty/releases/download/v0.7.0/hetty_0.7.0_Linux_x86_64.tar.gz
+
 
 
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
