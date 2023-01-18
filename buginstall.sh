@@ -98,6 +98,7 @@ pip3 install emailfinder
 pip install --upgrade sslyze
 pip3 install rekono-cli
 pip3 install anubis-netsec
+pip install raccoon-scanner
 
 npm i -g wappalyzer wscat;
 npm install -g grunt-cli
