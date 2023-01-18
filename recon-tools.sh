@@ -15,5 +15,6 @@ wget https://github.com/kh4sh3i/smartrecon/archive/refs/tags/v1.4.0.zip
 git clone https://github.com/SabyasachiRana/WebMap.git
 git clone https://github.com/yogeshojha/rengine.git
 git clone https://github.com/intrigueio/intrigue-core.git
+git clone https://github.com/EasyRecon/Hunt3r.git
 
 
