@@ -239,6 +239,8 @@ git clone https://github.com/si9int/cc.py.git
 git clone https://github.com/xnl-h4ck3r/xnLinkFinder.git
 git clone https://github.com/s0md3v/Parth.git
 git clone https://github.com/s0md3v/Silver.git
+git clone https://github.com/UnkL4b/GitMiner.git
+git clone https://github.com/maK-/parameth.git
 
 
 
@@ -275,6 +277,7 @@ wget https://github.com/Sh1Yo/x8/releases/download/v4.1.0/x86_64-opensslv1-linux
 wget https://github.com/j3ssie/osmedeus/releases/download/v4.3.0/osmedeus-v4.3.0-linux.zip
 wget https://github.com/s0md3v/Smap/releases/download/0.1.12/smap_0.1.12_linux_amd64.tar.xz
 wget https://github.com/michenriksen/gitrob/releases/download/v2.0.0-beta/gitrob_linux_amd64_2.0.0-beta.zip
+wget https://github.com/Edu4rdSHL/fhc/releases/download/0.7.1/fhc-linux
 
 
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
