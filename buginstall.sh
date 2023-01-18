@@ -88,6 +88,8 @@ pip3 install dnsgen;
 npm i -g wappalyzer wscat;
 npm install -g grunt-cli
 
+gem install wpscan
+
 phantomjs
 
 mkdir ~/.gf
