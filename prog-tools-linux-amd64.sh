@@ -17,6 +17,13 @@ wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.7/nuclei_
 wget https://github.com/projectdiscovery/katana/releases/download/v0.0.3/katana_0.0.3_linux_amd64.zip;
 wget https://github.com/projectdiscovery/notify/releases/download/v1.0.4/notify_1.0.4_linux_amd64.zip;
 wget https://github.com/projectdiscovery/mapcidr/releases/download/v1.0.3/mapcidr_1.0.3_linux_amd64.tar.gz;
+wget https://github.com/projectdiscovery/shuffledns/releases/download/v1.0.8/shuffledns_1.0.8_linux_amd64.zip;
+wget https://github.com/projectdiscovery/asnmap/releases/download/v0.0.1/asnmap_0.0.1_linux_amd64.tar.gz;
+wget https://github.com/projectdiscovery/openrisk/releases/download/v0.0.1/openrisk_0.0.1_linux_amd64.zip;
+wget https://github.com/projectdiscovery/uncover/releases/download/v1.0.2/uncover_1.0.2_linux_amd64.zip;
+wget https://github.com/projectdiscovery/subfinder/releases/download/v2.5.5/subfinder_2.5.5_linux_amd64.zip;
+wget https://github.com/projectdiscovery/simplehttpserver/releases/download/v0.0.5/simplehttpserver_0.0.5_linux_amd64.tar.gz;
+wget https://github.com/projectdiscovery/chaos-client/releases/download/v0.4.0/chaos-client_0.4.0_linux_amd64.zip;
 
 
 
