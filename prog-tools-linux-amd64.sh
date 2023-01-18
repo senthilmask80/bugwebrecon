@@ -254,6 +254,8 @@ git clone https://github.com/opsdisk/pagodo.git
 git clone https://github.com/edoardottt/scilla.git
 git clone https://github.com/edoardottt/longtongue.git
 git clone https://github.com/nahamsec/lazyrecon.git
+git clone https://github.com/smicallef/spiderfoot.git
+git clone https://github.com/PalindromeLabs/STEWS.git
 
 
 
