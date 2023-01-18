@@ -40,6 +40,10 @@ wget https://github.com/OWASP/Amass/releases/download/v3.21.2/amass_linux_amd64.
 wget https://github.com/OJ/gobuster/releases/download/v3.4.0/gobuster_3.4.0_Linux_x86_64.tar.gz
 wget https://github.com/jaeles-project/gospider/releases/download/v1.1.6/gospider_v1.1.6_linux_x86_64.zip
 wget https://github.com/jaeles-project/jaeles/releases/download/beta-v0.17/jaeles-v0.17-linux.zip
+wget https://github.com/pwnesia/dnstake/releases/download/v0.1.1/dnstake_0.1.1_linux_amd64.tar.gz
+wget https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd64.tar.gz
+wget https://github.com/rverton/webanalyze/releases/download/v0.3.8/webanalyze_0.3.8_Linux_x86_64.tar.gz
+wget https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-linux.zip
 
 
 
@@ -62,9 +66,6 @@ go install github.com/d3mondev/puredns/v2@latest
 
 
 
-wget https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd64.tar.gz
-wget https://github.com/rverton/webanalyze/releases/download/v0.3.8/webanalyze_0.3.8_Linux_x86_64.tar.gz
-wget https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-linux.zip
 
 
 
