@@ -99,6 +99,8 @@ pip install --upgrade sslyze
 pip3 install rekono-cli
 pip3 install anubis-netsec
 pip install raccoon-scanner
+pip install bluto
+
 
 npm i -g wappalyzer wscat;
 npm install -g grunt-cli
