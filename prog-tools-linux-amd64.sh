@@ -71,6 +71,10 @@ wget https://github.com/Edu4rdSHL/unimap/releases/download/0.5.1/unimap-linux
 wget https://github.com/projectdiscovery/proxify/releases/download/v0.0.8/proxify_0.0.8_linux_amd64.zip
 wget https://snapshots.mitmproxy.org/9.0.1/mitmproxy-9.0.1-linux.tar.gz
 wget https://github.com/a-j-wood/pv/releases/download/v1.6.20/pv-1.6.20.tar.gz
+wget https://github.com/jtesta/ssh-audit/releases/download/v2.5.0/ssh-audit-2.5.0.tar.gz
+wget https://github.com/zricethezav/gitleaks/releases/download/v8.15.2/gitleaks_8.15.2_linux_x64.tar.gz
+wget https://github.com/internetwache/GitTools/releases/download/v0.0.1/gitTools-v0.0.1.tgz
+
 
 
 
@@ -199,6 +203,11 @@ git clone https://github.com/YashGoti/crtsh.git
 git clone https://github.com/gwen001/github-search.git
 git clone https://github.com/eldraco/domain_analyzer.git
 git clone https://github.com/maldevel/EmailHarvester
+git clone https://github.com/ShawnDEvans/smbmap.git
+git clone https://github.com/fullhunt/log4j-scan.git
+git clone https://github.com/fullhunt/spring4shell-scan.git
+git clone https://github.com/Tuhinshubhra/CMSeeK.git
+git clone https://github.com/OWASP/joomscan.git
 
 
 
