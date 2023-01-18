@@ -169,7 +169,8 @@ go install github.com/shenwei356/rush@latest
 go install github.com/trickest/enumerepo@latest
 go install -v github.com/Hackmanit/Web-Cache-Vulnerability-Scanner@latest
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-
+go get -u github.com/pry0cc/subgen
+go install github.com/pry0cc/subgen@latest
 
 
 # extra-tools
@@ -241,6 +242,7 @@ git clone https://github.com/s0md3v/Parth.git
 git clone https://github.com/s0md3v/Silver.git
 git clone https://github.com/UnkL4b/GitMiner.git
 git clone https://github.com/maK-/parameth.git
+git clone https://github.com/shmilylty/OneForAll.git
 
 
 
