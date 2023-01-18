@@ -11,7 +11,12 @@ wget https://github.com/tomnomnom/meg/releases/download/v0.3.0/meg-linux-amd64-0
 wget https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-linux-amd64-0.7.1.tgz
 wget https://github.com/tomnomnom/anew/releases/download/v0.1.1/anew-linux-amd64-0.1.1.tgz
 wget https://github.com/tomnomnom/concurl/releases/download/v0.1.0/concurl-linux-amd64-0.1.0.tgz
-wget https://github.com/tomnomnom/comb/releases/download/v0.1.1/comb-linux-amd64-0.1.1.tgz
+wget https://github.com/tomnomnom/comb/releases/download/v0.1.1/comb-linux-amd64-0.1.1.tgz;
+wget https://github.com/projectdiscovery/naabu/releases/download/v2.1.1/naabu_2.1.1_linux_amd64.zip;
+wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.7/nuclei_2.8.7_linux_amd64.zip;
+wget https://github.com/projectdiscovery/katana/releases/download/v0.0.3/katana_0.0.3_linux_amd64.zip;
+wget https://github.com/projectdiscovery/notify/releases/download/v1.0.4/notify_1.0.4_linux_amd64.zip;
+wget https://github.com/projectdiscovery/mapcidr/releases/download/v1.0.3/mapcidr_1.0.3_linux_amd64.tar.gz;
 
 
 
@@ -41,4 +46,8 @@ git clone https://github.com/erbbysam/DNSGrep.git;
 git clone https://github.com/zseano/JS-Scan.git;
 git clone https://github.com/nahamsec/JSParser.git
 git clone https://github.com/jquery/jquery.git
+
+
+wget https://github.com/projectdiscovery/nuclei-templates/archive/refs/tags/v9.3.4.zip;
+wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.7/cve-annotate.zip;
 
