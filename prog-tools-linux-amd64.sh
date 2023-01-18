@@ -10,7 +10,9 @@ wget https://github.com/tomnomnom/waybackurls/releases/download/v0.1.0/waybackur
 wget https://github.com/tomnomnom/meg/releases/download/v0.3.0/meg-linux-amd64-0.3.0.tgz
 wget https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-linux-amd64-0.7.1.tgz
 wget https://github.com/tomnomnom/anew/releases/download/v0.1.1/anew-linux-amd64-0.1.1.tgz
-wget  
+wget https://github.com/tomnomnom/concurl/releases/download/v0.1.0/concurl-linux-amd64-0.1.0.tgz
+wget https://github.com/tomnomnom/comb/releases/download/v0.1.1/comb-linux-amd64-0.1.1.tgz
+
 
 
 wget https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd64.tar.gz
