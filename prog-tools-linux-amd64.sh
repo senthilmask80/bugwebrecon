@@ -11,7 +11,9 @@ wget https://github.com/tomnomnom/meg/releases/download/v0.3.0/meg-linux-amd64-0
 wget https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-linux-amd64-0.7.1.tgz
 wget https://github.com/tomnomnom/anew/releases/download/v0.1.1/anew-linux-amd64-0.1.1.tgz
 wget https://github.com/tomnomnom/concurl/releases/download/v0.1.0/concurl-linux-amd64-0.1.0.tgz
-wget https://github.com/tomnomnom/comb/releases/download/v0.1.1/comb-linux-amd64-0.1.1.tgz;
+wget https://github.com/tomnomnom/comb/releases/download/v0.1.1/comb-linux-amd64-0.1.1.tgz
+
+# https://github.com/projectdiscovery/?tab=repositories
 wget https://github.com/projectdiscovery/naabu/releases/download/v2.1.1/naabu_2.1.1_linux_amd64.zip;
 wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.7/nuclei_2.8.7_linux_amd64.zip;
 wget https://github.com/projectdiscovery/katana/releases/download/v0.0.3/katana_0.0.3_linux_amd64.zip;
@@ -24,6 +26,10 @@ wget https://github.com/projectdiscovery/uncover/releases/download/v1.0.2/uncove
 wget https://github.com/projectdiscovery/subfinder/releases/download/v2.5.5/subfinder_2.5.5_linux_amd64.zip;
 wget https://github.com/projectdiscovery/simplehttpserver/releases/download/v0.0.5/simplehttpserver_0.0.5_linux_amd64.tar.gz;
 wget https://github.com/projectdiscovery/chaos-client/releases/download/v0.4.0/chaos-client_0.4.0_linux_amd64.zip;
+wget https://github.com/projectdiscovery/dnsx/releases/download/v1.1.1/dnsx_1.1.1_linux_amd64.zip;
+wget https://github.com/projectdiscovery/tlsx/releases/download/v1.0.4/tlsx_1.0.4_linux_amd64.zip;
+wget https://github.com/projectdiscovery/proxify/releases/download/v0.0.8/proxify_0.0.8_linux_amd64.zip;
+wget https://github.com/projectdiscovery/httpx/releases/download/v1.2.6/httpx_1.2.6_linux_amd64.zip
 
 
 
