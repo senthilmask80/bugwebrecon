@@ -38,7 +38,15 @@ wget https://github.com/projectdiscovery/interactsh/releases/download/v1.0.7/int
 # https://github.com/hakluke?tab=repositories
 go install github.com/hakluke/hakoriginfinder@latest
 go install github.com/hakluke/hakrawler@latest
-
+go install github.com/hakluke/hakscale@latest
+go install -v github.com/hakluke/haktrails@latest
+go get github.com/joeguo/tldextract
+go install github.com/joeguo/tldextract@latest
+go install github.com/hakluke/hakip2host@latest
+go install github.com/hakluke/hakrevdns@latest
+go install github.com/hakluke/haktldextract@latest
+go install github.com/hakluke/hakcheckurl@latest
+go install github.com/hakluke/hakfindinternaldomains
 
 
 
@@ -64,6 +72,12 @@ go install github.com/projectdiscovery/retryabledns@latest
 go install -v github.com/projectdiscovery/network-fingerprint@latest 
 GO111MODULE=on go get -v github.com/projectdiscovery/dnsprobe
 go install github.com/projectdiscovery/dnsprobe@latest;
+go install github.com/hakluke/haklistgen@latest
+go get -u github.com/samirettali/dumpcn
+go install github.com/samirettali/dumpcn@latest
+go get github.com/hakluke/hakcsp
+go install github.com/hakluke/hakcsp@latest
+
 
 
 
@@ -77,11 +91,19 @@ git clone https://github.com/nahamsec/JSParser.git
 git clone https://github.com/jquery/jquery.git
 
 
+
+# Google Dorks 
+git clone https://github.com/molly/gh-dork.git
+
+
 wget https://github.com/projectdiscovery/nuclei-templates/archive/refs/tags/v9.3.4.zip;
 wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.7/cve-annotate.zip;
 wget https://github.com/projectdiscovery/nuclei-burp-plugin/releases/download/v1.1.0/nuclei-burp-plugin-1.1.0.jar;
 wget https://github.com/wappalyzer/wappalyzer/releases/download/v6.10.54/webextension-v2.zip;
 wget https://github.com/wappalyzer/wappalyzer/releases/download/v6.10.54/webextension-v3.zip;
+wget https://github.com/xm1k3/cent/releases/download/v1.0/cent;
+wget https://github.com/rs/dnstrace/releases/download/v1.4.0/dnstrace_1.4.0_linux_amd64.deb;
+
 
 
 # Templates
