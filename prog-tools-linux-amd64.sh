@@ -37,6 +37,8 @@ wget https://github.com/projectdiscovery/interactsh/releases/download/v1.0.7/int
 
 wget https://github.com/OWASP/Amass/releases/download/v3.21.2/amass_linux_amd64.bom.json;
 wget https://github.com/OWASP/Amass/releases/download/v3.21.2/amass_linux_amd64.zip;
+wget https://github.com/OJ/gobuster/releases/download/v3.4.0/gobuster_3.4.0_Linux_x86_64.tar.gz
+
 
 
 # https://github.com/hakluke?tab=repositories
@@ -51,11 +53,17 @@ go install github.com/hakluke/hakrevdns@latest
 go install github.com/hakluke/haktldextract@latest
 go install github.com/hakluke/hakcheckurl@latest
 go install github.com/hakluke/hakfindinternaldomains
+go get github.com/haccer/subjack
+go install github.com/haccer/subjack@latest
+go install github.com/d3mondev/puredns/v2@latest
+
+
 
 
 
 wget https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd64.tar.gz
 wget https://github.com/rverton/webanalyze/releases/download/v0.3.8/webanalyze_0.3.8_Linux_x86_64.tar.gz
+https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-linux.zip
 
 
 
@@ -94,6 +102,9 @@ git clone https://github.com/erbbysam/DNSGrep.git;
 git clone https://github.com/zseano/JS-Scan.git;
 git clone https://github.com/nahamsec/JSParser.git
 git clone https://github.com/jquery/jquery.git
+git clone https://github.com/TheRook/subbrute.git
+git clone https://github.com/m8sec/subscraper.git
+
 
 
 
