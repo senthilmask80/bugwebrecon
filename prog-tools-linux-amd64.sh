@@ -77,7 +77,8 @@ go get -u github.com/samirettali/dumpcn
 go install github.com/samirettali/dumpcn@latest
 go get github.com/hakluke/hakcsp
 go install github.com/hakluke/hakcsp@latest
-
+go get github.com/hakluke/haksecuritytxt
+go install github.com/hakluke/haksecuritytxt@latest
 
 
 
@@ -94,6 +95,9 @@ git clone https://github.com/jquery/jquery.git
 
 # Google Dorks 
 git clone https://github.com/molly/gh-dork.git
+git clone https://github.com/hakluke/hakrevshell.git
+git clone https://github.com/hakluke/hakcron.git
+
 
 
 wget https://github.com/projectdiscovery/nuclei-templates/archive/refs/tags/v9.3.4.zip;
@@ -107,6 +111,9 @@ wget https://github.com/rs/dnstrace/releases/download/v1.4.0/dnstrace_1.4.0_linu
 
 
 # Templates
-https://github.com/projectdiscovery/fuzzing-templates/archive/refs/tags/v0.0.1.zip
+wget https://github.com/projectdiscovery/fuzzing-templates/archive/refs/tags/v0.0.1.zip
 git clone https://github.com/bugcrowd/templates.git
+git clone https://github.com/hakluke/weaponised-XSS-payloads.git
+git clone https://github.com/cujanovic/Markdown-XSS-Payloads.git
+
 
