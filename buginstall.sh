@@ -74,6 +74,8 @@ pip install aort;
 pip install wafw00f;
 pip install aiodnsbrute;
 pip3 install arjun;
+pip3 install dnsgen;
+
 
 
 
