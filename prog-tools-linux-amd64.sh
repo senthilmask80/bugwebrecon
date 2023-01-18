@@ -195,6 +195,8 @@ git clone https://github.com/sa7mon/S3Scanner.git
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 git clone https://github.com/drwetter/testssl.sh.git
 git clone https://github.com/maaaaz/webscreenshot.git
+git clone https://github.com/YashGoti/crtsh.git
+git clone https://github.com/gwen001/github-search.git
 
 
 
