@@ -220,6 +220,7 @@ git clone https://github.com/Anteste/WebMap.git
 git clone https://github.com/fwaeytens/dnsenum.git
 git clone https://github.com/hueristiq/ps.sh.git
 git clone https://github.com/aufzayed/HydraRecon.git
+git clone https://github.com/r3curs1v3-pr0xy/sub404.git
 
 
 
