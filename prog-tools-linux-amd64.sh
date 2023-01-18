@@ -22,7 +22,8 @@ wget https://github.com/projectdiscovery/naabu/releases/download/v2.1.1/naabu_2.
 wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.7/nuclei_2.8.7_linux_amd64.zip;
 wget https://github.com/projectdiscovery/katana/releases/download/v0.0.3/katana_0.0.3_linux_amd64.zip;
 wget https://github.com/projectdiscovery/notify/releases/download/v1.0.4/notify_1.0.4_linux_amd64.zip;
-wget https://github.com/projectdiscovery/mapcidr/releases/download/v1.0.3/mapcidr_1.0.3_linux_amd64.tar.gz;
+wget https://github.com/projectdiscovery/
+/releases/download/v1.0.3/mapcidr_1.0.3_linux_amd64.tar.gz;
 wget https://github.com/projectdiscovery/shuffledns/releases/download/v1.0.8/shuffledns_1.0.8_linux_amd64.zip;
 wget https://github.com/projectdiscovery/asnmap/releases/download/v0.0.1/asnmap_0.0.1_linux_amd64.tar.gz;
 wget https://github.com/projectdiscovery/openrisk/releases/download/v0.0.1/openrisk_0.0.1_linux_amd64.zip;
@@ -160,6 +161,15 @@ go install github.com/Emoe/kxss@latest
 go install -v github.com/edoardottt/cariddi/cmd/cariddi@latest
 go get -u github.com/bp0lr/dmut
 go install github.com/bp0lr/dmut@latest
+go install -v github.com/Josue87/analyticsrelationships@latest
+go install -v github.com/Josue87/roboxtractor@latest
+go install -v github.com/trickest/dsieve@master
+go install github.com/tomnomnom/hacks/inscope@latest
+go install github.com/shenwei356/rush@latest
+go install github.com/trickest/enumerepo@latest
+go install -v github.com/Hackmanit/Web-Cache-Vulnerability-Scanner@latest
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+
 
 
 # extra-tools
@@ -228,6 +238,7 @@ git clone https://github.com/s0md3v/Photon.git
 git clone https://github.com/si9int/cc.py.git
 git clone https://github.com/xnl-h4ck3r/xnLinkFinder.git
 git clone https://github.com/s0md3v/Parth.git
+git clone https://github.com/s0md3v/Silver.git
 
 
 
