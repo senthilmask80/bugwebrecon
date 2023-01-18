@@ -157,7 +157,7 @@ go install github.com/bp0lr/gauplus@latest
 go install github.com/003random/getJS@latest
 go get github.com/Emoe/kxss
 go install github.com/Emoe/kxss@latest
-
+go install -v github.com/edoardottt/cariddi/cmd/cariddi@latest
 
 
 
@@ -217,7 +217,8 @@ git clone https://github.com/jobertabma/virtual-host-discovery.git
 git clone https://github.com/s0md3v/XSStrike.git
 git clone https://github.com/GoVanguard/legion.git
 git clone https://github.com/Anteste/WebMap.git
-
+git clone https://github.com/fwaeytens/dnsenum.git
+git clone https://github.com/hueristiq/ps.sh.git
 
 
 
@@ -225,6 +226,7 @@ git clone https://github.com/Anteste/WebMap.git
 git clone https://github.com/molly/gh-dork.git
 git clone https://github.com/hakluke/hakrevshell.git
 git clone https://github.com/hakluke/hakcron.git
+git clone https://github.com/jonluca/Anubis-DB.git
 
 
 
