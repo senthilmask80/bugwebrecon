@@ -158,7 +158,8 @@ go install github.com/003random/getJS@latest
 go get github.com/Emoe/kxss
 go install github.com/Emoe/kxss@latest
 go install -v github.com/edoardottt/cariddi/cmd/cariddi@latest
-
+go get -u github.com/bp0lr/dmut
+go install github.com/bp0lr/dmut@latest
 
 
 # extra-tools
@@ -221,6 +222,10 @@ git clone https://github.com/fwaeytens/dnsenum.git
 git clone https://github.com/hueristiq/ps.sh.git
 git clone https://github.com/aufzayed/HydraRecon.git
 git clone https://github.com/r3curs1v3-pr0xy/sub404.git
+git clone https://github.com/gfek/Lepus.git
+git clone https://github.com/dolevf/graphw00f.git
+git clone https://github.com/s0md3v/Photon.git
+
 
 
 
@@ -252,6 +257,11 @@ wget https://gist.githubusercontent.com/KathanP19/d2cda2f99c0b60d64b76ee6039b37e
 wget https://github.com/jonluca/Anubis/releases/download/1.1.3/anubis-netsec-1.1.3.tar.gz
 wget https://chromedriver.storage.googleapis.com/94.0.4606.41/chromedriver_linux64.zip
 wget https://github.com/utkusen/urlhunter/releases/download/v0.1.2/urlhunter_v0.1.2-next_Linux_amd64.tar.gz
+wget https://github.com/Sh1Yo/x8/releases/download/v4.1.0/x86_64-linux-x8.gz
+wget https://github.com/Sh1Yo/x8/releases/download/v4.1.0/x86_64-opensslv1-linux-x8.gz
+wget https://github.com/j3ssie/osmedeus/releases/download/v4.3.0/osmedeus-v4.3.0-linux.zip
+wget https://github.com/s0md3v/Smap/releases/download/0.1.12/smap_0.1.12_linux_amd64.tar.xz
+wget https://github.com/michenriksen/gitrob/releases/download/v2.0.0-beta/gitrob_linux_amd64_2.0.0-beta.zip
 
 
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
@@ -275,5 +285,6 @@ git clone https://github.com/hahwul/WebHackersWeapons.git
 git clone https://github.com/1ndianl33t/Gf-Patterns.git
 git clone https://github.com/six2dez/dotfiles.git
 git clone https://github.com/tomnomnom/dotfiles.git
+git clone https://github.com/nahamsec/recon_profile.git
 
 
