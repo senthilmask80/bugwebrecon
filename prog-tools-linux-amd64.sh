@@ -51,7 +51,7 @@ wget https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-li
 wget https://github.com/devploit/dontgo403/releases/download/0.5/dontgo403_linux_amd64
 wget https://github.com/dwisiswant0/cf-check/releases/download/v2.0.2/cf-check_2.0.2_linux_amd64.tar.gz
 wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip
-
+wget https://github.com/glebarez/cero/releases/download/v1.3.0/cero-linux-amd64
 
 
 
@@ -156,7 +156,7 @@ git clone https://github.com/w9w/JSA.git
 git clone https://github.com/vincentcox/bypass-firewalls-by-DNS-history.git
 git clone https://github.com/m3n0sd0n4ld/uDork.git
 git clone https://github.com/eslam3kl/crtfinder.git
-
+git clone https://github.com/commixproject/commix.git
 
 
 
@@ -196,6 +196,6 @@ git clone https://github.com/streaak/keyhacks.git
 git clone https://github.com/hahwul/WebHackersWeapons.git
 git clone https://github.com/1ndianl33t/Gf-Patterns.git
 git clone https://github.com/six2dez/dotfiles.git
-
+git clone https://github.com/tomnomnom/dotfiles.git
 
 
