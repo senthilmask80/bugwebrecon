@@ -73,6 +73,8 @@ pip install mmh3;
 pip install aort;
 pip install wafw00f;
 pip install aiodnsbrute;
+pip3 install arjun;
+
 
 
 npm i -g wappalyzer wscat;
