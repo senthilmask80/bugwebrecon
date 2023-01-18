@@ -212,6 +212,9 @@ wget https://github.com/xm1k3/cent/releases/download/v1.0/cent;
 wget https://github.com/rs/dnstrace/releases/download/v1.4.0/dnstrace_1.4.0_linux_amd64.deb;
 wget https://github.com/RustScan/RustScan/releases/download/1.10.0/rustscan_1.10.0_amd64.deb;
 wget https://github.com/nccgroup/scrying/releases/download/v0.9.2/scrying_0.9.2_amd64.deb;
+wget https://github.com/zaproxy/zaproxy/releases/download/v2.12.0/zaproxy_2.12.0-1_all.deb;
+wget https://github.com/zaproxy/zaproxy/releases/download/v2.12.0/ZAP_2.12.0_Crossplatform.zip
+
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
 git clone https://github.com/jaeles-project/jaeles-plugins.git
 git clone https://github.com/six2dez/burp-bounty-profiles.git
