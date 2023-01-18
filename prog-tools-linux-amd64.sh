@@ -278,7 +278,7 @@ wget https://github.com/j3ssie/osmedeus/releases/download/v4.3.0/osmedeus-v4.3.0
 wget https://github.com/s0md3v/Smap/releases/download/0.1.12/smap_0.1.12_linux_amd64.tar.xz
 wget https://github.com/michenriksen/gitrob/releases/download/v2.0.0-beta/gitrob_linux_amd64_2.0.0-beta.zip
 wget https://github.com/Edu4rdSHL/fhc/releases/download/0.7.1/fhc-linux
-
+wget https://github.com/j3ssie/goverview/releases/download/v1.0.1/goverview_v1.0.1_linux_amd64.tar.gz
 
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
 git clone https://github.com/jaeles-project/jaeles-plugins.git
