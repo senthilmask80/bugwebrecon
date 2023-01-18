@@ -100,7 +100,7 @@ pip3 install rekono-cli
 pip3 install anubis-netsec
 pip install raccoon-scanner
 pip install bluto
-
+pip3 install uro
 
 npm i -g wappalyzer wscat;
 npm install -g grunt-cli
