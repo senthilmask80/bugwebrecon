@@ -70,6 +70,7 @@ wget https://github.com/trufflesecurity/trufflehog/releases/download/v3.25.2/tru
 wget https://github.com/Edu4rdSHL/unimap/releases/download/0.5.1/unimap-linux
 wget https://github.com/projectdiscovery/proxify/releases/download/v0.0.8/proxify_0.0.8_linux_amd64.zip
 wget https://snapshots.mitmproxy.org/9.0.1/mitmproxy-9.0.1-linux.tar.gz
+wget https://github.com/a-j-wood/pv/releases/download/v1.6.20/pv-1.6.20.tar.gz
 
 
 
@@ -219,7 +220,7 @@ wget https://storage.googleapis.com/caido-releases/v0.22.1/caido-linux-v0.22.1-c
 wget https://storage.googleapis.com/caido-releases/internal/caido-desktop-linux-v0.22.1-7e0bcca8.deb
 wget https://storage.googleapis.com/caido-releases/v0.22.1/caido-desktop-linux-v0.22.1-d513d47d.AppImage
 wget https://github.com/dstotijn/hetty/releases/download/v0.7.0/hetty_0.7.0_Linux_x86_64.tar.gz
-
+wget https://github.com/sullo/nikto/archive/master.zip
 
 
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
