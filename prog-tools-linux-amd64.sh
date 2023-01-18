@@ -44,6 +44,8 @@ wget https://github.com/pwnesia/dnstake/releases/download/v0.1.1/dnstake_0.1.1_l
 wget https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd64.tar.gz
 wget https://github.com/rverton/webanalyze/releases/download/v0.3.8/webanalyze_0.3.8_Linux_x86_64.tar.gz
 wget https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-linux.zip
+wget https://github.com/devploit/dontgo403/releases/download/0.5/dontgo403_linux_amd64
+
 
 
 
@@ -134,6 +136,8 @@ git clone https://github.com/m4ll0k/SecretFinder.git
 git clone https://github.com/GerbenJavado/LinkFinder.git
 git clone https://github.com/m4ll0k/BBTz.git
 git clone https://github.com/ozguralp/gmapsapiscanner.git
+git clone https://github.com/six2dez/dorks_hunter.git
+git clone https://github.com/initstring/cloud_enum.git
 
 
 
@@ -164,5 +168,6 @@ git clone https://github.com/bugcrowd/templates.git
 git clone https://github.com/hakluke/weaponised-XSS-payloads.git
 git clone https://github.com/cujanovic/Markdown-XSS-Payloads.git
 git clone https://github.com/six2dez/OneListForAll.git
+git clone https://github.com/streaak/keyhacks.git
 
 
