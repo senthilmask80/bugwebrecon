@@ -70,10 +70,13 @@ sudo apt-get install libpcap-dev libpcre3-dev libpq-dev libssh-dev libssl-dev li
 sudo apt-get install net-tools ohmyzsh vim zsh zsh-autosuggestions zsh-syntax-highlighting
 sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev libgmp-dev zlib1g-dev libssl-dev libffi-dev libldns-dev rename findutils
 sudo apt-get install exploitdb exploitdb-bin-sploits exploitdb-papers
+sudo apt-get install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 
 
 pip install pipreqs;
 pip install pypi-install;
+pip install --user pipx
+pipx ensurepath
 pip install feedparser;
 pip install awscli;
 pip install google;
