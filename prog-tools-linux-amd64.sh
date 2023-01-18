@@ -30,10 +30,15 @@ wget https://github.com/projectdiscovery/dnsx/releases/download/v1.1.1/dnsx_1.1.
 wget https://github.com/projectdiscovery/tlsx/releases/download/v1.0.4/tlsx_1.0.4_linux_amd64.zip;
 wget https://github.com/projectdiscovery/proxify/releases/download/v0.0.8/proxify_0.0.8_linux_amd64.zip;
 wget https://github.com/projectdiscovery/httpx/releases/download/v1.2.6/httpx_1.2.6_linux_amd64.zip
+wget https://github.com/projectdiscovery/cloudlist/releases/download/v1.0.2/cloudlist_1.0.2_linux_amd64.zip;
+wget https://github.com/projectdiscovery/interactsh/releases/download/v1.0.7/interactsh-client_1.0.7_Linux_x86_64.zip;
+wget https://github.com/projectdiscovery/interactsh/releases/download/v1.0.7/interactsh-server_1.0.7_Linux_x86_64.zip;
+
 
 
 
 wget https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd64.tar.gz
+wget https://github.com/rverton/webanalyze/releases/download/v0.3.8/webanalyze_0.3.8_Linux_x86_64.tar.gz
 
 
 
@@ -48,6 +53,9 @@ go get "github.com/gorilla/mux"
 go install "github.com/gorilla/mux"@latest
 go get "github.com/golang/example/stringutil"
 go install "github.com/golang/example/stringutil"@latest
+go install -v github.com/projectdiscovery/wappalyzergo/cmd/update-fingerprints@latest;
+go get github.com/projectdiscovery/retryabledns
+go install github.com/projectdiscovery/retryabledns@latest
 
 
 
@@ -63,4 +71,7 @@ git clone https://github.com/jquery/jquery.git
 
 wget https://github.com/projectdiscovery/nuclei-templates/archive/refs/tags/v9.3.4.zip;
 wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.7/cve-annotate.zip;
+wget https://github.com/projectdiscovery/nuclei-burp-plugin/releases/download/v1.1.0/nuclei-burp-plugin-1.1.0.jar;
+wget https://github.com/wappalyzer/wappalyzer/releases/download/v6.10.54/webextension-v2.zip;
+wget https://github.com/wappalyzer/wappalyzer/releases/download/v6.10.54/webextension-v3.zip;
 
