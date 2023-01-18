@@ -209,7 +209,13 @@ git clone https://github.com/fullhunt/spring4shell-scan.git
 git clone https://github.com/Tuhinshubhra/CMSeeK.git
 git clone https://github.com/OWASP/joomscan.git
 git clone https://github.com/harsh-bothra/Bheem.git
-
+git clone https://github.com/FishermansEnemy/bucket_finder.git
+git clone https://github.com/christophetd/CloudFlair.git
+git clone https://github.com/wireghoul/dotdotpwn.git
+git clone https://github.com/tomdev/teh_s3_bucketeers.git
+git clone https://github.com/jobertabma/virtual-host-discovery.git
+git clone https://github.com/s0md3v/XSStrike.git
+git clone https://github.com/GoVanguard/legion.git
 
 
 
