@@ -54,6 +54,9 @@ wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_
 wget https://github.com/glebarez/cero/releases/download/v1.3.0/cero-linux-amd64
 wget https://github.com/Porchetta-Industries/CrackMapExec/releases/download/v5.4.0/cme-ubuntu-latest-3.11.zip
 wget https://github.com/Porchetta-Industries/CrackMapExec/releases/download/v5.4.0/cmedb-ubuntu-latest-3.11.zip
+wget https://github.com/dwisiswant0/crlfuzz/releases/download/v1.4.1/crlfuzz_1.4.1_linux_amd64.tar.gz
+wget https://github.com/hahwul/dalfox/releases/download/v2.8.2/dalfox_2.8.2_linux_amd64.tar.gz
+wget https://github.com/M4DM0e/DirDar/releases/download/v1.0.0/DirDarV1.0-linux64.zip
 
 
 
@@ -160,6 +163,7 @@ git clone https://github.com/m3n0sd0n4ld/uDork.git
 git clone https://github.com/eslam3kl/crtfinder.git
 git clone https://github.com/commixproject/commix.git
 git clone https://github.com/s0md3v/Corsy.git
+git clone https://github.com/codingo/DNSCewl.git
 
 
 
