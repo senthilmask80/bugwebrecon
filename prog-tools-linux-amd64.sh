@@ -38,6 +38,8 @@ wget https://github.com/projectdiscovery/interactsh/releases/download/v1.0.7/int
 wget https://github.com/OWASP/Amass/releases/download/v3.21.2/amass_linux_amd64.bom.json;
 wget https://github.com/OWASP/Amass/releases/download/v3.21.2/amass_linux_amd64.zip;
 wget https://github.com/OJ/gobuster/releases/download/v3.4.0/gobuster_3.4.0_Linux_x86_64.tar.gz
+wget https://github.com/jaeles-project/gospider/releases/download/v1.1.6/gospider_v1.1.6_linux_x86_64.zip
+wget https://github.com/jaeles-project/jaeles/releases/download/beta-v0.17/jaeles-v0.17-linux.zip
 
 
 
@@ -56,7 +58,6 @@ go install github.com/hakluke/hakfindinternaldomains
 go get github.com/haccer/subjack
 go install github.com/haccer/subjack@latest
 go install github.com/d3mondev/puredns/v2@latest
-
 
 
 
@@ -152,7 +153,8 @@ wget https://github.com/wappalyzer/wappalyzer/releases/download/v6.10.54/webexte
 wget https://github.com/wappalyzer/wappalyzer/releases/download/v6.10.54/webextension-v3.zip;
 wget https://github.com/xm1k3/cent/releases/download/v1.0/cent;
 wget https://github.com/rs/dnstrace/releases/download/v1.4.0/dnstrace_1.4.0_linux_amd64.deb;
-
+git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
+git clone https://github.com/jaeles-project/jaeles-plugins.git
 
 
 # Templates
