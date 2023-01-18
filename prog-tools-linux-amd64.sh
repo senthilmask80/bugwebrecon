@@ -45,6 +45,8 @@ wget https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd6
 wget https://github.com/rverton/webanalyze/releases/download/v0.3.8/webanalyze_0.3.8_Linux_x86_64.tar.gz
 wget https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-linux.zip
 wget https://github.com/devploit/dontgo403/releases/download/0.5/dontgo403_linux_amd64
+wget https://github.com/dwisiswant0/cf-check/releases/download/v2.0.2/cf-check_2.0.2_linux_amd64.tar.gz
+
 
 
 
@@ -64,6 +66,7 @@ go install github.com/hakluke/hakfindinternaldomains
 go get github.com/haccer/subjack
 go install github.com/haccer/subjack@latest
 go install github.com/d3mondev/puredns/v2@latest
+go install github.com/gwen001/github-subdomains@latest
 
 
 
@@ -116,6 +119,10 @@ go install github.com/miekg/dns@latest
 go get github.com/anshumanbh/tko-subs
 go install github.com/anshumanbh/tko-subs
 go install -v github.com/six2dez/ipcdn@latest
+go get -u github.com/Josue87/roboxtractor
+go install github.com/Josue87/roboxtractor@latest
+go install github.com/Josue87/gotator@latest
+
 
 
 
@@ -138,6 +145,12 @@ git clone https://github.com/m4ll0k/BBTz.git
 git clone https://github.com/ozguralp/gmapsapiscanner.git
 git clone https://github.com/six2dez/dorks_hunter.git
 git clone https://github.com/initstring/cloud_enum.git
+git clone https://github.com/w9w/JSA.git
+git clone https://github.com/vincentcox/bypass-firewalls-by-DNS-history.git
+git clone https://github.com/m3n0sd0n4ld/uDork.git
+git clone https://github.com/eslam3kl/crtfinder.git
+
+
 
 
 
@@ -160,6 +173,10 @@ wget https://github.com/xm1k3/cent/releases/download/v1.0/cent;
 wget https://github.com/rs/dnstrace/releases/download/v1.4.0/dnstrace_1.4.0_linux_amd64.deb;
 git clone --depth=1 https://github.com/jaeles-project/jaeles-signatures /tmp/jaeles-signatures/
 git clone https://github.com/jaeles-project/jaeles-plugins.git
+git clone https://github.com/six2dez/burp-bounty-profiles.git
+git clone https://github.com/wagiro/BurpBounty/releases/download/BurpBounty_v4.0/BurpBountyFree_v4.0.jar
+
+
 
 
 # Templates
@@ -169,5 +186,9 @@ git clone https://github.com/hakluke/weaponised-XSS-payloads.git
 git clone https://github.com/cujanovic/Markdown-XSS-Payloads.git
 git clone https://github.com/six2dez/OneListForAll.git
 git clone https://github.com/streaak/keyhacks.git
+git clone https://github.com/hahwul/WebHackersWeapons.git
+git clone https://github.com/1ndianl33t/Gf-Patterns.git
+git clone https://github.com/six2dez/dotfiles.git
+
 
 
