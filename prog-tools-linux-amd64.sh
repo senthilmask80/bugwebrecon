@@ -186,6 +186,7 @@ git clone https://github.com/devanshbatham/OpenRedireX.git
 git clone https://github.com/devanshbatham/ParamSpider.git
 git clone https://github.com/SpiderLabs/Responder.git
 git clone https://github.com/sa7mon/S3Scanner.git
+git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 
 
 
