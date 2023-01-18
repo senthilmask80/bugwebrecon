@@ -1,5 +1,9 @@
 #! /bin/bash
 
+# Compiling the source code
+
+# If you for some reason don't trust the pre-compiled binaries, you can also compile the code yourself. You are on your own if you want to do this. I do not support compiling problems. Good luck with it!
+
 # https://github.com/tomnomnom?tab=repositories
 # Pending fff, gf, 
 wget https://github.com/tomnomnom/assetfinder/releases/download/v0.1.1/assetfinder-linux-amd64-0.1.1.tgz
@@ -46,6 +50,8 @@ wget https://github.com/rverton/webanalyze/releases/download/v0.3.8/webanalyze_0
 wget https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-linux.zip
 wget https://github.com/devploit/dontgo403/releases/download/0.5/dontgo403_linux_amd64
 wget https://github.com/dwisiswant0/cf-check/releases/download/v2.0.2/cf-check_2.0.2_linux_amd64.tar.gz
+wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip
+
 
 
 
@@ -67,7 +73,8 @@ go get github.com/haccer/subjack
 go install github.com/haccer/subjack@latest
 go install github.com/d3mondev/puredns/v2@latest
 go install github.com/gwen001/github-subdomains@latest
-
+go get -u github.com/raverrr/dantiburl
+go install github.com/raverrr/dantiburl@latest
 
 
 
