@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# deb http://security.ubuntu.com/ubuntu bionic-security main 
+
 WORKING_DIR="$(cd "$(dirname "$0")" ; pwd -P)"
 TOOLS_PATH="$WORKING_DIR/tools"
 WORDLIST_PATH="$WORKING_DIR/wordlists"
@@ -34,7 +36,7 @@ sudo apt-get build-essential apt-transport-https software-properties-common gcc;
 sudo apt-get install curl wget git git-all rename screen certbot gunzip zip unzip 7zip tar p7zip-full;
 sudo apt-get install openssl openssh-server openssh-client parallel jq vim ctags tmux dtach dstat silversearcher-ag;
 sudo apt-get install awscli macchanger secure-delete neofetch prips;
-sudo apt-get install ruby ruby-dev ruby-full;
+sudo apt-get install ruby ruby-dev ruby-full rubygems;
 sudo apt-get install golang-1.18-go;
 sudo apt-get install openjdk-11-headless openjre-11-headless;
 sudo apt-get install rust-all pigz;
@@ -60,10 +62,13 @@ sudo apt-get install onionshare onioncircuits onionshare unbound proxychains pro
 sudo apt-get install chromium-browser chromium-chromedriver libnet-ssleay-perl; 
 sudo apt-get install masscan whatweb sublist3r gobuster nikto wafw00f medusa
 sudo apt-get install 0install 0install-core;
-apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev \
-                 libgtk2.0-dev libmysqlclient-dev libpq-dev libsvn-dev \
-                 firebird-dev libmemcached-dev libgpg-error-dev \
-                 libgcrypt11-dev libgcrypt20-dev
+sudo apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev libgtk2.0-dev libmysqlclient-dev libpq-dev libsvn-dev
+sudo apt-get install firebird-dev libmemcached-dev libgpg-error-dev libgcrypt11-dev libgcrypt20-dev
+sudo apt-get install bison fail2ban firebird-dev flex grc libgcrypt11-dev_1.5.4-3+really1.8.1-4ubuntu1.2_amd64.deb
+sudo apt-get install libgcrypt20-dev libgpg-error-dev libgtk2.0-dev libidn11-dev libmemcached-dev libmysqlclient-dev
+sudo apt-get install libpcap-dev libpcre3-dev libpq-dev libssh-dev libssl-dev libsvn-dev 
+sudo apt-get install net-tools ohmyzsh vim zsh zsh-autosuggestions zsh-syntax-highlighting
+
 
 
 pip install pipreqs;
