@@ -198,6 +198,8 @@ git clone https://github.com/maaaaz/webscreenshot.git
 git clone https://github.com/YashGoti/crtsh.git
 git clone https://github.com/gwen001/github-search.git
 git clone https://github.com/eldraco/domain_analyzer.git
+git clone https://github.com/maldevel/EmailHarvester
+
 
 
 
