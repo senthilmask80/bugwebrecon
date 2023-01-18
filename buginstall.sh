@@ -89,7 +89,8 @@ pip3 install arjun;
 pip3 install dnsgen;
 pip3 install colored
 pip3 install tldextract
-
+pip install termcolor
+pip install py-altdns
 
 
 npm i -g wappalyzer wscat;
