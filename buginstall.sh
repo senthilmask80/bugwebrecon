@@ -32,7 +32,7 @@ createDir(){
 
 sudo apt-get build-essential apt-transport-https software-properties-common gcc;
 sudo apt-get install curl wget git git-all rename screen certbot gunzip zip unzip 7zip tar p7zip-full;
-sudo apt-get install openssl openssh-server openssh-client parallel jq;
+sudo apt-get install openssl openssh-server openssh-client parallel jq vim ctags tmux dtach dstat silversearcher-ag;
 sudo apt-get install awscli macchanger secure-delete neofetch;
 sudo apt-get install ruby ruby-dev ruby-full;
 sudo apt-get install golang-1.18-go;
@@ -522,5 +522,24 @@ function install_go() {
 		source "$HOME"/.profile;
 		rm -rf go1.12.linux-amd64.tar.gz;
 }
+
+function install {
+  which $1 &> /dev/null
+
+  if [ $? -ne 0 ]; then
+    echo "Installing: ${1}..."
+    apt-get install $1
+  else
+    echo "Already installed: ${1}"
+  fi
+}
+
+install vim
+install ctags
+install tmux
+install dtach
+install dstat
+install nmap
+install silversearcher-ag
 
 
