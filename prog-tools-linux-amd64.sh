@@ -35,6 +35,10 @@ wget https://github.com/projectdiscovery/interactsh/releases/download/v1.0.7/int
 wget https://github.com/projectdiscovery/interactsh/releases/download/v1.0.7/interactsh-server_1.0.7_Linux_x86_64.zip;
 
 
+wget https://github.com/OWASP/Amass/releases/download/v3.21.2/amass_linux_amd64.bom.json;
+wget https://github.com/OWASP/Amass/releases/download/v3.21.2/amass_linux_amd64.zip;
+
+
 # https://github.com/hakluke?tab=repositories
 go install github.com/hakluke/hakoriginfinder@latest
 go install github.com/hakluke/hakrawler@latest
