@@ -56,6 +56,9 @@ go install "github.com/golang/example/stringutil"@latest
 go install -v github.com/projectdiscovery/wappalyzergo/cmd/update-fingerprints@latest;
 go get github.com/projectdiscovery/retryabledns
 go install github.com/projectdiscovery/retryabledns@latest
+go install -v github.com/projectdiscovery/network-fingerprint@latest 
+GO111MODULE=on go get -v github.com/projectdiscovery/dnsprobe
+go install github.com/projectdiscovery/dnsprobe@latest;
 
 
 
@@ -74,4 +77,8 @@ wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.7/cve-ann
 wget https://github.com/projectdiscovery/nuclei-burp-plugin/releases/download/v1.1.0/nuclei-burp-plugin-1.1.0.jar;
 wget https://github.com/wappalyzer/wappalyzer/releases/download/v6.10.54/webextension-v2.zip;
 wget https://github.com/wappalyzer/wappalyzer/releases/download/v6.10.54/webextension-v3.zip;
+
+
+# Templates
+https://github.com/projectdiscovery/fuzzing-templates/archive/refs/tags/v0.0.1.zip
 
