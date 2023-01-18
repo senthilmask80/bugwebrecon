@@ -72,6 +72,8 @@ pip install "urllib3[secure]"
 pip install mmh3;
 pip install aort;
 pip install wafw00f;
+pip install aiodnsbrute;
+
 
 npm i -g wappalyzer wscat;
 npm install -g grunt-cli
