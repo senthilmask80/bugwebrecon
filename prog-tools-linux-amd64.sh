@@ -38,3 +38,7 @@ git clone https://github.com/tomnomnom/hacks.git;
 git clone https://github.com/ffuf/ffuf-scripts.git;
 git clone https://github.com/tomnomnom/dotfiles.git;
 git clone https://github.com/erbbysam/DNSGrep.git;
+git clone https://github.com/zseano/JS-Scan.git;
+git clone https://github.com/nahamsec/JSParser.git
+git clone https://github.com/jquery/jquery.git
+
