@@ -35,7 +35,7 @@ createDir(){
 sudo apt-get install build-essential apt-transport-https software-properties-common gcc build-dep ca-certificates dirmngr gnupg gnupg2;
 sudo apt-get install curl wget git git-all rename screen certbot gunzip zip unzip 7zip tar p7zip-full;
 sudo apt-get install openssl openssh-server openssh-client parallel jq vim ctags tmux dtach dstat silversearcher-ag sslscan;
-sudo apt-get install awscli macchanger secure-delete neofetch prips;
+sudo apt-get install awscli macchanger secure-delete neofetch prips dpkg-dev;
 sudo apt-get install ruby ruby-dev ruby-full rubygems;
 sudo apt-get install golang-1.18-go;
 sudo apt-get install openjdk-11-headless openjre-11-headless;
@@ -46,7 +46,7 @@ sudo apt-get install sqlite sqlite3 sqlite3-tools sqlitebrowser;
 sudo apt-get install dnsmasq dnsmasq-base dnsproxy dnsutils dnsrecon dns2tcp dnscache;
 sudo apt-get install -y make libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev libgdbm-dev;
 sudo apt-get install llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libpcap-dev xsltproc libldns-dev;
-sudo apt-get install dnsutils libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ibssl-dev libffi-dev;
+sudo apt-get install dnsutils libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev libssl-dev libffi-dev;
 sudo apt-get install lzma liblzma-dev libbz2-dev readline gnureadline;
 sudo apt-get install python-is-python3 python3-pip python3-venv python3-virtualenv;
 sudo apt-get install python3-dev python3-minimal python3-full;
@@ -67,9 +67,9 @@ sudo apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev libgtk2.0-d
 sudo apt-get install firebird-dev libmemcached-dev libgpg-error-dev libgcrypt11-dev libgcrypt20-dev
 sudo apt-get install bison fail2ban firebird-dev flex grc libgcrypt11-dev_1.5.4-3+really1.8.1-4ubuntu1.2_amd64.deb
 sudo apt-get install libgcrypt20-dev libgpg-error-dev libgtk2.0-dev libidn11-dev libmemcached-dev libmysqlclient-dev
-sudo apt-get install libpcap-dev libpcre3-dev libpq-dev libssh-dev libssl-dev libsvn-dev 
+sudo apt-get install libpcap-dev libpcre3-dev libpq-dev libssh-dev libssl-dev libsvn-dev libpq-dev libxml2-dev libxslt1-dev
 sudo apt-get install net-tools ohmyzsh vim zsh zsh-autosuggestions zsh-syntax-highlighting
-sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev libgmp-dev zlib1g-dev libssl-dev libffi-dev libldns-dev rename findutils
+sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev libgmp-dev libjpeg-dev libtiff-dev libssl-dev libffi-dev libldns-dev rename findutils
 sudo apt-get install exploitdb exploitdb-bin-sploits exploitdb-papers
 sudo apt-get install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 
