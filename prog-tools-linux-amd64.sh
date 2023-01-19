@@ -324,4 +324,12 @@ git clone https://github.com/internetwache/CT_subdomains.git
 
 https://drive.google.com/uc?id=1z3Zr3o6v86eIbPtsUbY4DGypWV1Cn2y_&export=download
 
+# Extract multiple zip file using terminal
+unzip '*.zip'
+
+# Extract multiple tar.gz files using terminal
+cat *.tar.gz | tar zvxf - -i
+cat *.tgz | tar zvxf - -i
+cat *.tar.xz | tar Jxvf - -i
+cat *.tar.bz2 | tar jxvf - -i
 
