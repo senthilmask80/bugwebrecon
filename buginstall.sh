@@ -104,6 +104,8 @@ pip install bluto
 pip3 install uro
 pip install mmh3
 pip3 install apkleaks
+pip install pyinstaller
+
 
 
 npm i -g wappalyzer wscat;
