@@ -56,12 +56,12 @@ sudo apt-get install pythonpy python3-poetry python3-poetry-core pipenv;
 sudo apt-get install python3-tk python3-whois python3-dns python3-dnslib python3-dnspython python3-dnsq;
 sudo apt-get install python3-httpx python3-httptools python3-parser python3-httpbin python3-httpcore;
 sudo apt-get install python3-httplib2 python3-httpretty python3-args python3-argparse-manpage;
-sudo apt-get install python3-aiodns python3-aiohttp python3-aiohttp python3-aiohttp-cors;
+sudo apt-get install python3-aiodns python3-aiohttp python3-aiohttp python3-aiohttp-cors python3-pipdeptree;
 sudo apt-get install python3-aiohttp-proxy python3-aiohttp-security python3-aiohttp-session;
 sudo apt-get install nmap tor torbrowser-launcher tor-geoipdb torsocks iptables iptables-persistent;
 sudo apt-get install onionshare onioncircuits onionshare unbound proxychains proxychains4 proxycheck;
 sudo apt-get install chromium-browser chromium-chromedriver libnet-ssleay-perl; 
-sudo apt-get install masscan whatweb sublist3r gobuster nikto wafw00f medusa
+sudo apt-get install masscan whatweb sublist3r gobuster nikto wafw00f medusa 
 sudo apt-get install 0install 0install-core;
 sudo apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev libgtk2.0-dev libmysqlclient-dev libpq-dev libsvn-dev
 sudo apt-get install firebird-dev libmemcached-dev libgpg-error-dev libgcrypt11-dev libgcrypt20-dev
