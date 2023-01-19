@@ -39,7 +39,7 @@ sudo apt-get install awscli macchanger secure-delete neofetch prips dpkg-dev;
 sudo apt-get install ruby ruby-dev ruby-full rubygems;
 sudo apt-get install golang-1.18-go;
 sudo apt-get install openjdk-11-headless openjre-11-headless;
-sudo apt-get install rust-all pigz;
+sudo apt-get install rust-all pigz tox;
 sudo apt-get install npm;
 sudo apt-get install figlet lolcat banner cowsay jp2a linuxlogo fortune cbonsai;
 sudo apt-get install sqlite sqlite3 sqlite3-tools sqlitebrowser;
@@ -75,6 +75,8 @@ sudo apt-get install seclists curl dnsrecon enum4linux feroxbuster gobuster impa
 
 
 pip install pipreqs;
+pip install pyinstaller;
+pip install pip-conflict-checker
 pip install pypi-install;
 pip install --user pipx
 pipx ensurepath
