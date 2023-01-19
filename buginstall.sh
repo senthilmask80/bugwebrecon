@@ -84,6 +84,7 @@ pip install virtualenvwrapper
 pip install --user pipenv
 pip install virtualenv
 pip install paver
+pip install argparse
 pip install feedparser;
 pip install awscli;
 pip install google;
