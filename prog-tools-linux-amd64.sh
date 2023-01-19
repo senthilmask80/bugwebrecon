@@ -90,7 +90,7 @@ go install github.com/hakluke/hakip2host@latest
 go install github.com/hakluke/hakrevdns@latest
 go install github.com/hakluke/haktldextract@latest
 go install github.com/hakluke/hakcheckurl@latest
-go install github.com/hakluke/hakfindinternaldomains
+go install github.com/hakluke/hakfindinternaldomains@latest
 go get github.com/haccer/subjack
 go install github.com/haccer/subjack@latest
 go install github.com/d3mondev/puredns/v2@latest
