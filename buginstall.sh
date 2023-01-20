@@ -35,7 +35,7 @@ createDir(){
 sudo apt-get install build-essential apt-transport-https software-properties-common gcc build-dep ca-certificates dirmngr gnupg gnupg2;
 sudo apt-get install curl wget git git-all rename screen certbot gunzip zip unzip 7zip tar p7zip-full;
 sudo apt-get install openssl openssh-server openssh-client parallel jq vim ctags tmux dtach dstat silversearcher-ag sslscan;
-sudo apt-get install awscli macchanger secure-delete neofetch prips dpkg-dev;
+sudo apt-get install awscli macchanger secure-delete neofetch prips dpkg-dev bash-completion net-tools telnet;
 sudo apt-get install ruby ruby-dev ruby-full rubygems;
 sudo apt-get install golang-1.18-go;
 sudo apt-get install openjdk-11-headless openjre-11-headless;
