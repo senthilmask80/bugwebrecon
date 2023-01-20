@@ -63,7 +63,7 @@ sudo apt-get install onionshare onioncircuits onionshare unbound proxychains pro
 sudo apt-get install chromium-browser chromium-chromedriver libnet-ssleay-perl; 
 sudo apt-get install masscan whatweb sublist3r gobuster nikto wafw00f medusa 
 sudo apt-get install 0install 0install-core;
-sudo apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev libgtk2.0-dev libmysqlclient-dev libpq-dev libsvn-dev
+sudo apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev libgtk2.0-dev libmariadb-dev libmariadb-dev-compat libpq-dev libsvn-dev
 sudo apt-get install firebird-dev libmemcached-dev libgpg-error-dev libgcrypt11-dev libgcrypt20-dev
 sudo apt-get install bison fail2ban firebird-dev flex grc libgcrypt11-dev_1.5.4-3+really1.8.1-4ubuntu1.2_amd64.deb
 sudo apt-get install libgcrypt20-dev libgpg-error-dev libgtk2.0-dev libidn11-dev libmemcached-dev libmysqlclient-dev
