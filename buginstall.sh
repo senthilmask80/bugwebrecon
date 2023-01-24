@@ -72,7 +72,7 @@ sudo apt-get install net-tools ohmyzsh vim zsh zsh-autosuggestions zsh-syntax-hi
 sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev libgmp-dev libjpeg-dev libtiff-dev libssl-dev libffi-dev libldns-dev rename findutils
 sudo apt-get install exploitdb exploitdb-bin-sploits exploitdb-papers
 sudo apt-get install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
-
+sudo apt update; sudo apt install build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 
 pip install pipreqs;
 pip install pyinstaller;
@@ -80,6 +80,7 @@ pip install pip-conflict-checker
 pip install pypi-install;
 pip install --user pipx
 pipx ensurepath
+pipx portable-python
 pip install virtualenvwrapper
 pip install --user pipenv
 pip install virtualenv
