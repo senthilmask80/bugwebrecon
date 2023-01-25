@@ -105,4 +105,11 @@ Important Guides
 3. https://github.com/ARPSyndicate/bug-bounty-recon-dataset
 4. https://github.com/pdelteil/BugBountyReportTemplates
 5. https://github.com/pdelteil/BugBountyHuntingScripts
+6. https://github.com/tuhin1729/Bug-Bounty-Methodology
+7. https://github.com/Neelakandan-A/BugBounty_CheatSheet
+8. https://github.com/hakluke/bug-bounty-standards
+9. https://github.com/6vr/Bug-Bounty-Tips
+10. https://github.com/victoni/Bug-Bounty-Scripts
+
+
 
