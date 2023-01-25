@@ -1,6 +1,17 @@
 Nuclei Command
 ~ > nuclei -a ransomsec -target /tmp/dangerous-shell.sh
+~ > nuclei -l ./targets.txt -t ./CVE-2022-35405.yaml
 
+
+FFUF Command
+~ > ffuf -u https://codingo.io/FUZZ -w ./wordlist -recursion -e .bak
+~ > ffuf -u https://rendering-prd.redacted.com/FUZZ -w english-words.txt -mc all -fw 6
+
+Ghauri Command
+~ > ghauri -r sqli-req.txt --dbms=MySQL --technique=T --current-db
+
+SQLMAP Command
+~ > sqlmap -r sqli-req.txt --current-db --technique=T --dbms=MySQL --level=2 --risk=3 --random-agent --no-cast
 
 
 
