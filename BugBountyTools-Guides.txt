@@ -122,7 +122,19 @@ Important Guides for Bugbounty Tools
 19. https://github.com/daffainfo/AllAboutBugBounty
 20. https://github.com/sushiwushi/bug-bounty-dorks
 21. https://github.com/Karanxa/Bug-Bounty-Wordlists
-22. 
+22. https://github.com/chvancooten/BugBountyScanner
+23. https://github.com/bittentech/Bug-Bounty-Beginner-Roadmap
+24. https://github.com/jaiswalakshansh/Facebook-BugBounty-Writeups
+25. https://github.com/bobby-lin/study-bug-bounty
+26. https://github.com/projectdiscovery/public-bugbounty-programs
+27. https://github.com/chvancooten/BugBountyScanner
+28. https://github.com/EdOverflow/bugbountyguide
+29. https://github.com/random-robbie/bugbounty-scans
+30. https://github.com/0xJin/awesome-bugbounty-builder
+31. https://github.com/Ignitetechnologies/bugbounty
+32. https://github.com/twseptian/oneliner-bugbounty
+33. https://github.com/hackerspider1/Recon-bugbounty
+
 
 
 
