@@ -16,6 +16,15 @@ Best search engines for pentesters and security professionals
 ---> ivre.rocks
 ---> crt.sh
 ---> vulners.com
+---> grep.app
+---> app.binaryedge
+---> fofa.info
+---> leakix.io
+---> app.netlas.io
+---> searchcode.com
+---> urlscan.io
+---> socradar.io
+
 
  
 *** Recon Tools for Web Application Pentesting ***
