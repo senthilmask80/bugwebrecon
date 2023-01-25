@@ -1,3 +1,35 @@
+Common Checks
+
+# robots.txt
+curl http://example.com/robots.txt
+
+# headers
+wget --saved-headers http://www.example.com/
+ # Strict-Transport-Security {HSTS}
+ # X-Frame-Options: SAMEORIGIN
+ # X-XSS-Protections: 1; mode-block
+ # X-Content-Type-Options: nosniff
+ 
+# Cookies
+ # Check Secure and HTTP only flag in session cookie
+ # if exists BIG-IP cookie, app behind a load balancer 
+
+# SSL Ciphers
+nmap --script ssl-enum-ciphers-p 443 www.example.com
+
+# HTTP Methods
+nmap -p 443 --script http-methods www.example.com
+
+# Cross Domain Policy
+curl http://example.com/crossdomain.xml
+ # allow-access-from domain="*"
+
+# Cookies Explained
+https://cookiepedia.co.uk/
+
+---------------------------------------------------------------------------------------
+
+
 Best search engines for pentesters and security professionals
 ---> shodan.io
 ---> zoomeye.io
