@@ -34,3 +34,25 @@ X-Forwarded-Host: IP
 23. check for State Parameter in Social Sign-In & Check Whether it's possible to cause Dos using multiple cookies injection.
 24. File-Upload CSRF, XSS SSRF, RCE, LFI, XXE
 25. Buffer Overflow
+
+Web Application Penetration Testing Checklist
+1. Contact Form Testing
+2. Proxy Server[s] Testing
+3. Spam Email Filter Testing
+4. Network Firewall Testing
+5. Security Vulnerability Testing
+6. Credential Encryption Testing
+7. Cookie Testing
+8. Testing for Open Ports
+9. Application Login Page Testing
+9. Error Message Testing
+10. HTTP Method[s] Testing
+11. Username and Password Testing
+12. File Scanning
+13. SQL Injection Testing
+14. XSS Testing
+15. Access Permission Testing
+16. User Session Testing
+17. Brute Force Attack Testing
+18. DoS (Denial of Service) Attack Testing
+19. Directory Browsing
