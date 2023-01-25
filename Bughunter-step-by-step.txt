@@ -35,7 +35,16 @@ X-Forwarded-Host: IP
 24. File-Upload CSRF, XSS SSRF, RCE, LFI, XXE
 25. Buffer Overflow
 
+
+Beginnings Tips
+
+Subdomain enumeration Dirsearch or ffuf, on > found hidden javascript file > found external AWS hostbin the JS --> Admin Panel authentication at /
+admin bypass --> SSRF --> AWS key extract --> obusfucated content parsing --> Set AWS credentials on my host Downloaded files of the buckets /
+--> Found private API and Secret Keys --> RCE
+
+
 Web Application Penetration Testing Checklist
+
 1. Contact Form Testing
 2. Proxy Server[s] Testing
 3. Spam Email Filter Testing
