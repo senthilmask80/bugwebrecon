@@ -99,7 +99,8 @@ Best search engines for pentesters and security professionals
 6. securitytrails
 
 
-Important Guides
+Important Guides for Bugbounty Tools
+
 1. https://github.com/Anlominus/Bug-Bounty
 2. https://github.com/disclose/bug-bounty-platforms
 3. https://github.com/ARPSyndicate/bug-bounty-recon-dataset
@@ -110,6 +111,12 @@ Important Guides
 8. https://github.com/hakluke/bug-bounty-standards
 9. https://github.com/6vr/Bug-Bounty-Tips
 10. https://github.com/victoni/Bug-Bounty-Scripts
+11. https://github.com/leetCipher/bug-bounty-labs
+12. https://github.com/EdOverflow/bugbounty-cheatsheet
+13. https://github.com/devanshbatham/Awesome-Bugbounty-Writeups
+14. https://github.com/dwisiswant0/awesome-oneliner-bugbounty
+15. https://github.com/vavkamil/awesome-bugbounty-tools
+16.  
 
 
 
