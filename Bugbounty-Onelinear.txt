@@ -1,0 +1,10 @@
+Nuclei Command
+~ > nuclei -a ransomsec -target /tmp/dangerous-shell.sh
+
+
+
+
+
+
+
+
