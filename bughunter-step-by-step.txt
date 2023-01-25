@@ -1,0 +1,36 @@
+This is What should I do when I hunt:
+
+1. Find subdomains
+2. Check CNAME Records of Those Subdomains, check for subdomain takeover. Use waybackurls for URLs
+3. Use Massscan for port scanning 
+4. Do Github Recon
+5. On WebApp
+6. Check for CORS Misconfigurations
+7. Check for Email Header Injection on Reset Password Functions
+8. Check for SMTP and HOST Header Injections
+9. Check for IFRAME (for Clickjacking)
+10. Check for Improper Access Control and Paranter Tampering
+11. Check Burp History for finding endpoint.
+12. use Arjun for finding hidden endpoints.
+13. check for CSRF
+14. check for SSRF Parameters.
+15. check for XSS and SSTI
+16. check cyptography in Reset Password Token
+17. check for Unicode Injection in Email Parameter
+18. check for Bypassing Rate Limit
+
+Headers : 
+X-Originating-IP: IP
+X-Forwarded-For: IP
+X-Remote-IP: IP
+X-Remote-Addr: IP
+X-Client-IP: IP
+X-Forwarded-Host: IP
+
+19. Directory Brute-Force
+20. check for HTTP Request Smuggling.
+21. check for Open Redirect Through WaybackURLs
+22. check for Social-Signon Bypass
+23. check for State Parameter in Social Sign-In & Check Whether it's possible to cause Dos using multiple cookies injection.
+24. File-Upload CSRF, XSS SSRF, RCE, LFI, XXE
+25. Buffer Overflow
