@@ -37,6 +37,29 @@ Waybackurls command
 ~ > cat rootDomains.txt | assetfinder subs-only | httpx -p 80,443,8080,8443,9000 -nc -silent > hosts.txt; 
 ~ > katana -list hosts.txt -nc -silent -c 50 | nuclei -t <your templates>
 
+# Automatic One Liner SSRF: 
+~ > assetfinder --subs-only target | httprobe | gau | gf ssrf | nuclei -t nuclei-templates/vulnerabilities/microstrategy-ssrf.yaml
+
+# Manual testing SSRF
+~ > assetfinder --subs-only target | httprobe | gau | gf ssrf | parallel -j curl --proxy http://127.0.0.1:8080 -sk 2>/dev/null
+
+Then use burp callobrator to manipulate SSRF
+
+# SSRF TIP:
+# Collect .js files
+~ > subfinder -d <domain> -silent -all | httpx | getJS -complete | tee -a <domain>.js
+
+# Collect Endpoints 
+~ > cat <domain>.js | linkJs -m endpoints | tee -a endpoints.txt
+
+# Construct a wordlist
+~ > ./wordlistgen endpoints.txt parameters.txt | tee -a wordlist
+
+# Should be in the format
+~ > /endpoint/?url=FUZZ 
+# Run FFUF against the domain and wordlist
+
+
 
 -------------------------------------------------------------------------------------
 # ReconOne # 1
@@ -53,6 +76,8 @@ cat domains_subfinder_$1 | tee -a domain_$1
 # filtering the domains
 sort -u domains_$1 -o domains_$1
 cat domains_$1 | filter-resolved | tee -a domains_$1.txt
+
+cat domains_$1 | ~/go/bin/httprobe -p http:81 -p http:8080 -p https:8443 | waybackurls | kxss | tee xss.txt
 ----------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------
