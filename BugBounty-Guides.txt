@@ -101,4 +101,8 @@ Best search engines for pentesters and security professionals
 
 Important Guides
 1. https://github.com/Anlominus/Bug-Bounty
+2. https://github.com/disclose/bug-bounty-platforms
+3. https://github.com/ARPSyndicate/bug-bounty-recon-dataset
+4. https://github.com/pdelteil/BugBountyReportTemplates
+5. https://github.com/pdelteil/BugBountyHuntingScripts
 
