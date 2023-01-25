@@ -106,6 +106,18 @@ Best search engines for pentesters and security professionals
 4. httprobe
 5. recon-ng
 6. securitytrails
+7. infoooze
+8. Google Dorking Script
+9. DNS-Discovery
+10. Reverse IP Lookup
+11. Wapiti
+12. INalyzer
+13. IronWASP
+14. hash-identifier
+15. jfscan
+16. hackbar extension
+19. netcat
+20. domained
 
 
 Important Guides for Bugbounty Tools
