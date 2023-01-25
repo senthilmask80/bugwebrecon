@@ -134,7 +134,7 @@ Important Guides for Bugbounty Tools
 31. https://github.com/Ignitetechnologies/bugbounty
 32. https://github.com/twseptian/oneliner-bugbounty
 33. https://github.com/hackerspider1/Recon-bugbounty
-
+34. https://github.com/alexbieber/Bug_Bounty_writeups
 
 
 
