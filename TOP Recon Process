@@ -1,0 +1,53 @@
+ TOP Recon Process
+ 
+ 1. Finding all the subdomain
+ a) Chaos project discovery
+ b) subfinder
+ c) sublister
+ d) amass
+ e) assetfinder
+ f) dnsdumpster
+ 
+ 2) Resolving subdomains - is the IP / Domain Live?
+ a) massdns
+ 
+ 3) Port check (80, 443 etc)
+ a) httpx
+ b) httprobe
+ c) whatweb
+ 
+ 4) Port Scan on all subs
+ a) masscan
+ b) Nmap
+ 
+ 5) Dirbrutes (web domains / FUZZ)
+ a) ffuf
+ b) dirbuster
+ 
+ 6) Identifying technologies
+ a) whatweb
+ b) builtwith
+ 
+ 7) Javascript files
+ a) jsscanner
+ b) Linkfinder
+ c) jsfinder
+ d) jsparser
+ e) jsmon
+ 
+ 8) Fetching URLs
+ a) getallurls (gau)
+ b) waybackmachine
+ c) waybackurls
+ d) hakrawler
+ 
+ 9) Dorking Google / Github
+ a) exploit-db
+ b) githound
+ c) gitrob
+ d) github-dorks
+ 
+ 10) Urls web hacking tools
+ a) gf
+ b) nuclei
+ c) qsreplace
