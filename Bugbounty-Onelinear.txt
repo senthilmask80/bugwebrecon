@@ -231,6 +231,17 @@ while read testing_sqli;do sqlmap -u "$testing_sqli" \
 ~ > gau video.uber.com | python3 ssrf.py dcb39ac17f1f.ngrok.io
 
 
+# Javascript recon when target is using Graphql
+# find all embedded graphql queries/mutations using bash one liner
+
+~ > cat jsfile.js | nestle -regex '(query|mutation)\s+[a-zA-Z]+[0-9]*[a-zA-Z]+(\([^(\(|\))]+\))*\s*[{:nested:}]' | sed 's/\\n/\n/g'
+
+# create a list of resolvers
+~ > dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 100 -0 dns-resolvers.txt
+
+# resolve subdomains
+~ > puredns resolve subdomains.txt -r dns-resolvers.txt -w resolved.txt
+
 -------------------------------------------------------------------------------------
 # ReconOne # 1
 
