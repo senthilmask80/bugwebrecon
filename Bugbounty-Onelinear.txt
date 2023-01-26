@@ -92,6 +92,9 @@ cat urls | gf sqli | tee -a sqli
 # run SQLi test
 while read line; do sqlmap -u $line --parse-errors --current-db --invalid-logical --invalid-bignum --invalid-string --risk 3; done < sqli
 
+# AMASS Command
+~ > amass enum -norecursive -passive --config /amass/examples/config.ini -d example.com
+
 # naabu command
 ~ > naabu -l target.txt -rate 3000 -retries 1 -warm-up-time 0 -c 50 -top-ports 1000 -silent
 ~ > echo hackerone.com | naabu -silent | bash naabu2nmap.sh
