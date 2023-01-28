@@ -243,9 +243,10 @@ while read testing_sqli;do sqlmap -u "$testing_sqli" \
 ~ > puredns resolve subdomains.txt -r dns-resolvers.txt -w resolved.txt
 
 # Gather Domainns from Content-Security-Policy
-~ > curl -vs URL --stderr - | awk '/^content-security-policy:/' | grep -E0 "[a-zA-Z0-9./?=_-]*" | sed -e '/\./!d' -e '/[^3
+~ > curl -vs URL --stderr - | awk '/^content-security-policy:/' | grep -E0 "[a-zA-Z0-9./?=_-]*" | sed -e '/\./!d' -e '/[^3A-Za-z0-9._-]/d' -e 's/^\.//' | sort -u
 
-~ > nuclei -l ./targets.txt -t ./CVE-2022-35405.yamlA-Za-z0-9._-]/d' -e 's/^\.//' | sort -u
+
+~ > nuclei -l ./targets.txt -t ./CVE-2022-35405.yaml
 
 -------------------------------------------------------------------------------------
 # ReconOne # 1
