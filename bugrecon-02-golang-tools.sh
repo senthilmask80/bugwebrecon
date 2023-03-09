@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -e "\n-----------------------------------------"
-echo -e "${BOLD}${LIGHT_YELLOW}[~] Installing python tools${NORMAL}"
+echo -e "${BOLD}${LIGHT_YELLOW}[~] Installing golang tools${NORMAL}"
 echo "-----------------------------------------"
 
 STARTIME=$(date +%s)
