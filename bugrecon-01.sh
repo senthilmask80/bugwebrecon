@@ -294,3 +294,214 @@ if ! testcmd aquatone; then
     sudo mv aquatone /usr/local/bin
     rm -rf $AQUATONE
 fi
+
+echo -e "\n-----------------------------------------"
+echo -e "${BOLD}${LIGHT_YELLOW}[~] Installing python tools${NORMAL}"
+echo "-----------------------------------------"
+
+
+if ! testcmd dnsgen; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing dnsgen...${NORMAL}"
+    python3.7 -m pip install dnsgen --user
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing dnsgen...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if ! testcmd trufflehog; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing trufflehog...${NORMAL}"
+    python3.7 -m pip install truffleHog --user
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing trufflehog...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if ! testcmd scout; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing scoutsuite...${NORMAL}"
+    python3.7 -m pip install scoutsuite --user
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing scoutsuite...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if ! testcmd aws; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing awscli...${NORMAL}"
+    python3.7 -m pip install awscli --user
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing awscli...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if ! testcmd wafw00f; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing wafw00f...${NORMAL}"
+    git clone https://github.com/EnableSecurity/wafw00f.git $TOOLS_DIR/wafw00f
+    cd $TOOLS_DIR/wafw00f
+    python3.7 setup.py install --user
+    cd
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing wafw00f...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/Corsy" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Corsy...${NORMAL}"
+    git clone https://github.com/s0md3v/Corsy $TOOLS_DIR/Corsy
+    cd "$TOOLS_DIR/Corsy"
+    pip3.7 install -r requirements.txt --user
+    cd
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Corsy...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/flumberboozle" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing flumberboozle...${NORMAL}"
+    git clone https://github.com/fellchase/flumberboozle $TOOLS_DIR/flumberboozle
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing flumberboozle...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/bass" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing bass...${NORMAL}"
+    git clone https://github.com/Abss0x7tbh/bass $TOOLS_DIR/bass
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing bass...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/dirsearch" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing dirsearch...${NORMAL}"
+    git clone https://github.com/maurosoria/dirsearch.git $TOOLS_DIR/dirsearch
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing dirsearch...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/Injectus" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Injectus...${NORMAL}"
+    git clone https://github.com/BountyStrike/Injectus $TOOLS_DIR/Injectus
+    cd $TOOLS_DIR/Injectus
+    pip3.7 install -r requirements.txt --user
+    cd
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Injectus...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+echo -e "\n-----------------------------------------"
+echo -e "${BOLD}${LIGHT_YELLOW}[~] Installing ruby tools${NORMAL}"
+echo "-----------------------------------------"
+
+if [ ! -d "$TOOLS_DIR/WhatWeb" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing WhatWeb to $TOOLS_DIR/...${NORMAL}"
+    git clone https://github.com/urbanadventurer/WhatWeb.git $TOOLS_DIR/WhatWeb
+    cd $TOOLS_DIR/WhatWeb
+    bundle install
+    cd
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing WhatWeb to $TOOLS_DIR/...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+
+echo -e "\n-----------------------------------------"
+echo -e "${BOLD}${LIGHT_YELLOW}[~] Installing misc tools${NORMAL}"
+echo "-----------------------------------------"
+
+if [ ! -f "$TOOLS_DIR/chromedriver" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing chromedriver to $TOOLS_DIR...${NORMAL}"
+    wget https://chromedriver.storage.googleapis.com/78.0.3904.105/chromedriver_linux64.zip -O chromedriver.zip
+    unzip chromedriver.zip
+    sudo mv chromedriver $TOOLS_DIR
+    rm -rf chromedriver.zip
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing chromedriver to $TOOLS_DIR...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+
+if ! testcmd massdns; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing massdns...${NORMAL}"
+    git clone https://github.com/blechschmidt/massdns.git
+    cd massdns
+    make >> $LOGFILE 2>&1
+    sudo mv bin/massdns /usr/local/bin
+    cp lists/resolvers.txt $TOOLS_DIR/resolvers.txt
+    cd ..
+    rm -rf massdns
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing massdns...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if ! testcmd masscan; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing masscan...${NORMAL}"
+    git clone https://github.com/robertdavidgraham/masscan
+    cd masscan
+    make -j >> $LOGFILE 2>&1
+    sudo mv ./bin/masscan /usr/bin/
+    cd ..
+    rm -rf masscan
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing masscan...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/seclists" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing SecLists to $TOOLS_DIR...${NORMAL}"
+    git clone https://github.com/danielmiessler/SecLists.git $TOOLS_DIR/seclists
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing SecLists to $TOOLS_DIR...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/wordlists/commonspeak2" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Commonspeak2 wordlists to $TOOLS_DIR...${NORMAL}"
+    git clone https://github.com/assetnote/commonspeak2-wordlists $TOOLS_DIR/wordlists/commonspeak2
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Commonspeak2 wordlists to $TOOLS_DIR/wordlists...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/wordlists/api_wordlists" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing api_wordlist to $TOOLS_DIR/wordlists...${NORMAL}"
+    git clone https://github.com/chrislockard/api_wordlist $TOOLS_DIR/wordlists/api_wordlists
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing api_wordlist to $TOOLS_DIR/wordlists...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/wordlists/fuzz.txt" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Bo0oM/fuzz.txt to $TOOLS_DIR/wordlists...${NORMAL}"
+    git clone https://github.com/Bo0oM/fuzz.txt.git $TOOLS_DIR/wordlists/fuzz.txt
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Bo0oM/fuzz.txt to $TOOLS_DIR/wordlists...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/wordlists/fuzz.txt" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Bo0oM/fuzz.txt to $TOOLS_DIR/wordlists...${NORMAL}"
+    git clone https://github.com/Bo0oM/fuzz.txt.git $TOOLS_DIR/wordlists/fuzz.txt
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Bo0oM/fuzz.txt to $TOOLS_DIR/wordlists...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/wordlists/Probable-Wordlists" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Probable-Wordlists to $TOOLS_DIR/wordlists...${NORMAL}"
+    git clone https://github.com/berzerk0/Probable-Wordlists $TOOLS_DIR/wordlists/Probable-Wordlists
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing Probable-Wordlists to $TOOLS_DIR/wordlists...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if [ ! -d "$TOOLS_DIR/wordlists/fuzzdb" ]; then
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing fuzzdb to $TOOLS_DIR/wordlists...${NORMAL}"
+    git clone https://github.com/fuzzdb-project/fuzzdb $TOOLS_DIR/wordlists/fuzzdb
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing fuzzdb to $TOOLS_DIR/wordlists...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+if ! testcmd nmap; then
+
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing nmap...${NORMAL}"
+    git clone https://github.com/nmap/nmap.git
+    cd nmap
+    echo -e "${LIGHT_CYAN}[!] Configuring nmap...${NORMAL}"
+    sh ./configure
+    echo -e "${LIGHT_CYAN}[!] Running make nmap...${NORMAL}"
+    make
+    echo -e "${LIGHT_CYAN}[!] Runing make install nmap...${NORMAL}"
+    sudo make install
+    cd ..
+    rm -rf nmap
+else
+    echo -e "${BOLD}${LIGHT_GREEN}[+] Installing nmap...${LIGHT_YELLOW}[ALREADY INSTALLED]${NORMAL}"
+fi
+
+echo -e "${LIGHT_CYAN}\n[+] Looks like we are done? You may need to run source ~/.profile in order for some programs to take effect${NORMAL}"
+
+echo -e "\n========================================="
+echo -e "${BOLD}${LIGHT_YELLOW}~ BountyStrike-sh installation complete ~${NORMAL}"
+echo -e "${BOLD}${LIGHT_GREEN}~ Enjoy your bounties ~${NORMAL}\n"
