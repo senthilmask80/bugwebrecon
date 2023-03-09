@@ -16,6 +16,10 @@ NORMAL='\e[0m'
 RED='\e[31m'
 UNDERLINE='\e[4m'
 
+testcmd () {
+    command -v "$1" >/dev/null
+}
+
 if ! testcmd amass; then
     export GO111MODULE=on
     echo -e "${BOLD}${LIGHT_GREEN}[+] Installing amass...${NORMAL}"
