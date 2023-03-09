@@ -3,6 +3,15 @@
 STARTIME=$(date +%s)
 LOGFILE="install.log"
 
+BLINK='\e[5m'
+BOLD='\e[1m'
+LIGHT_GREEN='\e[92m'
+LIGHT_YELLOW='\e[93m'
+LIGHT_CYAN='\e[96m'
+NORMAL='\e[0m'
+RED='\e[31m'
+UNDERLINE='\e[4m'
+
 testcmd () {
     command -v "$1" >/dev/null
 }
